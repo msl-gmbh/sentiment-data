@@ -1,0 +1,53 @@
+name: Update Live Data
+
+# Holt die Marktdaten im Zeitplan und committet live-data.json zurueck ins Repo.
+# Die HTML-Dashboards bleiben lokal/privat und ziehen die JSON per raw-URL.
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # alle 2 Stunden (UTC). Anpassbar: z.B. "0 6-22/2 * * *"
+  workflow_dispatch: {}       # erlaubt manuelles Starten im Actions-Tab
+
+permissions:
+  contents: write             # noetig, damit der Job live-data.json committen darf
+
+concurrency:
+  group: live-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Node einrichten
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Live-Daten abrufen
+        env:
+          BGEO_KEY: ${{ secrets.BGEO_KEY }}
+          FRED_KEY: ${{ secrets.FRED_KEY }}
+          FMP_KEY: ${{ secrets.FMP_KEY }}
+          NDL_KEY: ${{ secrets.NDL_KEY }}
+          NAAIM_WEEKLY: ${{ secrets.NAAIM_WEEKLY }}
+          CONCENTRATION_MAG7: ${{ secrets.CONCENTRATION_MAG7 }}
+          PUTCALL_MANUAL: ${{ secrets.PUTCALL_MANUAL }}
+          # CI=true wird von GitHub automatisch gesetzt -> update-data.js schreibt nur die JSON,
+          # nicht die HTML-Dateien.
+        run: node update-data.js
+
+      - name: live-data.json committen (nur bei Aenderung)
+        run: |
+          git config user.name "msl-data-bot"
+          git config user.email "msl-data-bot@users.noreply.github.com"
+          git add live-data.json
+          if git diff --staged --quiet; then
+            echo "Keine Aenderung an live-data.json."
+          else
+            git commit -m "data: live-data.json $(date -u +%FT%TZ)"
+            git push
+          fi
