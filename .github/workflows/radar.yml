@@ -32,13 +32,13 @@ jobs:
           FRED_KEY: ${{ secrets.FRED_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: node radar/radar.js
+        run: node radar.js
 
       - name: Ausgabe committen (nur bei Aenderung)
         run: |
           git config user.name "msl-radar-bot"
           git config user.email "msl-radar-bot@users.noreply.github.com"
-          git add radar/output/global_market_radar.json radar/output/seen.json radar/output/archive.jsonl
+          git add output
           if git diff --staged --quiet; then
             echo "Keine Aenderung."
           else
