@@ -5,7 +5,7 @@ name: Update Live Data
 
 on:
   schedule:
-    - cron: "0 */1 * * *"   # alle 2 Stunden (UTC). Anpassbar: z.B. "0 6-22/2 * * *"
+    - cron: "0 */6 * * *"   # alle 2 Stunden (UTC). Anpassbar: z.B. "0 6-22/2 * * *"
   workflow_dispatch: {}       # erlaubt manuelles Starten im Actions-Tab
 
 permissions:
