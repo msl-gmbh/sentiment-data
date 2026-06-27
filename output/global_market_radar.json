@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-06-27T15:18:52.851Z",
+  "highest_level": 3,
+  "cash_deployment": "gestaffelt",
+  "existing_positions": "keine_aenderung",
+  "market_confirmation": 0,
+  "hard_data": {
+    "vix": 18.89,
+    "vix3m": 20.33,
+    "hyoas": 2.78
+  },
+  "alerts": [
+    {
+      "id": "569161c7728cc41b",
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch",
+      "title": "Quartalsende",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Quartalsende) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": {
+        "total": 16,
+        "asset_relevance": 2,
+        "institutional_flows": 4,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "eaaa6a5f6b2114be",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "Monatsende",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": {
+        "total": 13,
+        "asset_relevance": 1,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "f3df57ab1483da2d",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB Consumer Expectations Survey results – May 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "01a44dcb3db53bbc",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "6127b2a4c050faad",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB reports on progress towards euro adoption",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "941565b29c5e168b",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB publishes consolidated banking data for end-December 2025",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "ef2e197cb866fdaa",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "New data release: ECB wage tracker points to stable negotiated wage pressures in 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260617~79dfc49802.en.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    },
+    {
+      "id": "1e82ead4c1c2f60b",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "assets": [
+        "Krypto",
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "Quelle",
+          "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm]]>"
+        }
+      ],
+      "score": {
+        "total": 8,
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:18:52.851Z",
+      "expires_at": "2026-07-04T15:18:52.851Z"
+    }
+  ],
+  "noise_filtered": 13,
+  "notifications": {
+    "telegram_sent": 0
+  }
+}
