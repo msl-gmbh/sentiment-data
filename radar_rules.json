@@ -1,7 +1,6 @@
 {
   "version": "0.1",
   "_hinweis": "Alle Schwellen und Keywords hier zentral. Nichts im Code hart codiert.",
-
   "score_max": {
     "asset_relevance": 3,
     "institutional_flows": 4,
@@ -11,32 +10,168 @@
     "market_confirmation": 5,
     "cash_deployment": 4
   },
-
   "levels": [
-    { "min": 0,  "level": 0, "type": "noise",                 "label": "Laerm" },
-    { "min": 6,  "level": 1, "type": "context",               "label": "Kontext" },
-    { "min": 10, "level": 2, "type": "watch",                 "label": "Watch" },
-    { "min": 15, "level": 3, "type": "cash_deployment_watch", "label": "Cash-Deployment-Watch" },
-    { "min": 20, "level": 4, "type": "critical_watch",        "label": "Critical Watch" }
+    {
+      "min": 0,
+      "level": 0,
+      "type": "noise",
+      "label": "Laerm"
+    },
+    {
+      "min": 6,
+      "level": 1,
+      "type": "context",
+      "label": "Kontext"
+    },
+    {
+      "min": 10,
+      "level": 2,
+      "type": "watch",
+      "label": "Watch"
+    },
+    {
+      "min": 15,
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch"
+    },
+    {
+      "min": 20,
+      "level": 4,
+      "type": "critical_watch",
+      "label": "Critical Watch"
+    }
   ],
-
   "telegram_min_level": 3,
   "alert_expiry_days": 7,
-
   "asset_keywords": {
-    "Aktien":      ["stocks","equity","equities","s&p","s&p 500","nasdaq","dow","aktien","index","etf"],
-    "Krypto":      ["bitcoin","btc","ethereum","eth","crypto","stablecoin","altcoin"],
-    "Gold/Silber": ["gold","silver","bullion","precious metal"],
-    "Zinsen":      ["interest rate","rate hike","rate cut","yield","treasury","fed","fomc","ecb","bond"],
-    "USD/FX":      ["dollar","dxy","currency","forex"],
-    "Oel/Energie": ["oil","crude","wti","brent","opec","energy"],
-    "Vola/Stress": ["volatility","vix","credit spread","liquidation","sell-off","selloff"]
+    "Aktien": [
+      "stocks",
+      "equity",
+      "equities",
+      "s&p",
+      "s&p 500",
+      "nasdaq",
+      "dow",
+      "aktien",
+      "index",
+      "etf"
+    ],
+    "Krypto": [
+      "bitcoin",
+      "btc",
+      "ethereum",
+      "eth",
+      "crypto",
+      "stablecoin",
+      "altcoin"
+    ],
+    "Gold/Silber": [
+      "gold",
+      "silver",
+      "bullion",
+      "precious metal"
+    ],
+    "Zinsen": [
+      "interest rate",
+      "rate hike",
+      "rate cut",
+      "yield",
+      "treasury",
+      "fed",
+      "fomc",
+      "ecb",
+      "bond"
+    ],
+    "USD/FX": [
+      "dollar",
+      "dxy",
+      "currency",
+      "forex"
+    ],
+    "Oel/Energie": [
+      "oil",
+      "crude",
+      "wti",
+      "brent",
+      "opec",
+      "energy"
+    ],
+    "Vola/Stress": [
+      "volatility",
+      "vix",
+      "credit spread",
+      "liquidation",
+      "sell-off",
+      "selloff"
+    ]
   },
-
-  "institutional_keywords": ["rebalanc","pension fund","sovereign","institutional","fund flow","etf flow","inflow","outflow","reconstitution","msci","russell","quarter-end","month-end","opex","options expiration","triple witching","witching"],
-  "magnitude_keywords":     ["billion","trillion","record","largest","biggest","massive","volume surge"],
-  "cash_deployment_keywords":["rebalanc","quarter-end","month-end","opex","options expiration","reconstitution","witching","index change"],
-
-  "noise_blacklist": ["expert warns","could crash","you won't believe","shocking","guru","price prediction","to the moon","will skyrocket","is this the end","analyst predicts"],
-  "source_whitelist": ["reuters.com","bloomberg.com","wsj.com","ft.com","cnbc.com","apnews.com","federalreserve.gov","ecb.europa.eu","sec.gov","cftc.gov","coindesk.com","marketwatch.com"]
+  "institutional_keywords": [
+    "rebalanc",
+    "pension fund",
+    "sovereign",
+    "institutional",
+    "fund flow",
+    "etf flow",
+    "inflow",
+    "outflow",
+    "reconstitution",
+    "msci",
+    "russell",
+    "quarter-end",
+    "month-end",
+    "opex",
+    "options expiration",
+    "triple witching",
+    "witching"
+  ],
+  "magnitude_keywords": [
+    "billion",
+    "trillion",
+    "record",
+    "largest",
+    "biggest",
+    "massive",
+    "volume surge"
+  ],
+  "cash_deployment_keywords": [
+    "rebalanc",
+    "quarter-end",
+    "month-end",
+    "opex",
+    "options expiration",
+    "reconstitution",
+    "witching",
+    "index change"
+  ],
+  "noise_blacklist": [
+    "expert warns",
+    "could crash",
+    "you won't believe",
+    "shocking",
+    "guru",
+    "price prediction",
+    "to the moon",
+    "will skyrocket",
+    "is this the end",
+    "analyst predicts"
+  ],
+  "source_whitelist": [
+    "reuters.com",
+    "bloomberg.com",
+    "wsj.com",
+    "ft.com",
+    "cnbc.com",
+    "apnews.com",
+    "federalreserve.gov",
+    "ecb.europa.eu",
+    "sec.gov",
+    "cftc.gov",
+    "coindesk.com",
+    "marketwatch.com"
+  ],
+  "llm": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6"
+  }
 }

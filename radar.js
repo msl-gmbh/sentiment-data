@@ -22,7 +22,8 @@ if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
 const CONFIG = {
   FRED_KEY: process.env.FRED_KEY || "DEIN_FRED_KEY",
   TG_TOKEN: process.env.TELEGRAM_BOT_TOKEN || "",
-  TG_CHAT:  process.env.TELEGRAM_CHAT_ID || ""
+  TG_CHAT:  process.env.TELEGRAM_CHAT_ID || "",
+  ANTHROPIC_KEY: process.env.ANTHROPIC_API_KEY || "DEIN_ANTHROPIC_KEY"
 };
 
 const RULES   = readJson(path.join(CFG, "radar_rules.json"));
@@ -246,6 +247,41 @@ function socialText(a) {
 function notMeaning() { return "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung."; }
 function investNote() { return "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen."; }
 
+/* ----------------------------------------------------------- LLM-Textstufe (Claude API, optional) */
+// Erzeugt publikationsreife, compliance-konforme Community-/Social-Texte. Nur fuer gesendete Alerts.
+// Faellt bei fehlendem Key/Fehler still auf die Templates zurueck.
+async function llmDrafts(a, hard) {
+  if (!RULES.llm || !RULES.llm.enabled) return null;
+  if (!CONFIG.ANTHROPIC_KEY || /DEIN_/.test(CONFIG.ANTHROPIC_KEY)) return null;
+  const sys =
+    "Du bist Kommunikations-Assistent fuer MSL, eine Finanz-Coaching-Marke OHNE Anlageberatungslizenz. " +
+    "Erzeuge zu einem Marktereignis zwei kurze deutsche Texte fuer Community und Social Media. " +
+    "ZWINGENDE REGELN: keine Anlageberatung; keine Kauf-/Verkaufsempfehlung; keine Einzeltitel; keine Kurs-Prognose; " +
+    "keine Garantien; keine Crash-Panik; kein Clickbait. Stil: ruhig, sachlich, kompetent, einordnend. " +
+    "Erlaubt: Marktmechanik erklaeren, Hype/Panik sachlich entkraeften, und hoechstens der Hinweis, dass fuer NEUES " +
+    "Kapital ein gestaffeltes Vorgehen sinnvoll sein kann (bestehende Positionen bleiben immer unberuehrt). " +
+    "Antworte AUSSCHLIESSLICH mit JSON, ohne Code-Fences: " +
+    "{\"community\":\"<3-4 Saetze sachliche Anlegerinfo>\",\"social\":\"<4-6 Saetze Experten-Einordnung, die Panikmache " +
+    "sachlich kontert und Kompetenz zeigt>\"}.";
+  const user =
+    "Ereignis: " + a.title + "\nAssetklassen: " + a.assets.join(", ") + "\nRadar-Level: " + a.level + " (" + a.label + ")\n" +
+    "Sachliche Einordnung: " + a.summary + "\n" +
+    "Harte Marktlage: VIX " + hard.vix + ", HY-Spread " + hard.hyoas + ", Stress-Score " + hard.mc + "/5.";
+  try {
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-api-key": CONFIG.ANTHROPIC_KEY, "anthropic-version": "2023-06-01" },
+      body: JSON.stringify({ model: (RULES.llm.model || "claude-sonnet-4-6"), max_tokens: 800, system: sys, messages: [{ role: "user", content: user }] })
+    });
+    if (!r.ok) { let b = ""; try { b = await r.text(); } catch (e) {} console.warn("  ! LLM HTTP " + r.status + " " + b.slice(0, 160)); return null; }
+    const j = await r.json();
+    const text = (j.content || []).filter(c => c.type === "text").map(c => c.text).join("\n");
+    const obj = JSON.parse(text.replace(/```json|```/g, "").trim());
+    if (obj && obj.community && obj.social) { console.log("  > LLM-Texte erzeugt fuer: " + a.title); return obj; }
+    return null;
+  } catch (e) { console.warn("  ! LLM-Fehler: " + e.message); return null; }
+}
+
 function toAlert(s, now) {
   const id = sha1((s.calendar ? "cal:" + s.eventType + ":" + s.eventDate : "news:" + s.item.source + ":" + s.item.title));
   return {
@@ -282,7 +318,12 @@ async function sendTelegram(text) {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ chat_id: CONFIG.TG_CHAT, text, disable_web_page_preview: true })
     });
-    if (!r.ok) { console.warn("  ! Telegram HTTP " + r.status); return false; }
+    if (!r.ok) {
+      let body = "";
+      try { body = await r.text(); } catch (e) {}
+      console.warn("  ! Telegram HTTP " + r.status + (body ? " — " + body.replace(/\s+/g, " ").slice(0, 180) : ""));
+      return false;
+    }
     return true;
   } catch (e) { console.warn("  ! Telegram-Fehler: " + e.message); return false; }
 }
@@ -296,8 +337,8 @@ function telegramMessage(a) {
     + "Was es NICHT bedeutet: " + a.what_it_does_not_mean + "\n"
     + "Strategie-Wirkung: keine automatische Aenderung.\n"
     + "Cash-Deployment: " + a.investment_note + "\n\n"
-    + "— Community-Entwurf —\n" + a._community_text + "\n\n"
-    + "— Social-Media-Entwurf —\n" + a._social_text + "\n\n"
+    + "— Community-Entwurf" + (a._llm ? " (KI)" : "") + " —\n" + a._community_text + "\n\n"
+    + "— Social-Media-Entwurf" + (a._llm ? " (KI)" : "") + " —\n" + a._social_text + "\n\n"
     + "Score: " + a.score.total + " | Quelle: " + (a.sources[0] ? a.sources[0].url : "Kalender");
 }
 
@@ -327,13 +368,20 @@ function telegramMessage(a) {
   const seen = loadSeen(); pruneSeen(seen, now);
   let sent = 0;
   for (const a of alerts) {
-    const known = seen[a.id];
-    const isNewOrHigher = !known || a.level > known.max_level;
-    if (a.level >= (RULES.telegram_min_level || 3) && isNewOrHigher) {
+    const known = seen[a.id] || {};
+    const notified = (known.notified_level == null) ? -1 : known.notified_level; // alte Eintraege => -1 => Retry
+    let notifiedLevel = notified;
+    if (a.level >= (RULES.telegram_min_level || 3) && a.level > notified) {
+      const drafts = await llmDrafts(a, hard);   // KI nur fuer tatsaechlich zu sendende Alerts (kostensparend)
+      if (drafts) { a._community_text = drafts.community; a._social_text = drafts.social; a._llm = true; }
       const ok = await sendTelegram(telegramMessage(a));
-      if (ok) sent++;
+      if (ok) { notifiedLevel = a.level; sent++; }   // nur bei echtem Versand als gemeldet markieren
     }
-    seen[a.id] = { max_level: Math.max(a.level, known ? known.max_level : 0), expires_at: a.expires_at };
+    seen[a.id] = {
+      max_level: Math.max(a.level, known.max_level || 0),
+      notified_level: notifiedLevel,
+      expires_at: a.expires_at
+    };
   }
   saveSeen(seen);
 
