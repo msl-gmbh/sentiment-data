@@ -20,7 +20,7 @@ const CONFIG = {
   NAAIM_WEEKLY: process.env.NAAIM_WEEKLY || 79.27,
   // Put/Call (Equity) hat keine freie Live-API mehr (CBOE-Archiv eingefroren).
   // Optional Wert eintragen (z.B. von stockcharts.com $CPCE), sonst bleibt es n/a:
-  PUTCALL_MANUAL: process.env.PUTCALL_MANUAL || null,
+  PUTCALL_MANUAL: process.env.PUTCALL_MANUAL || 0.59,
   // Konzentrations-Niveau (Mag-7-Gewicht im S&P 500) — keine freie Auto-Quelle, aendert sich langsam.
   // Monatlich grob aktualisieren (z.B. slickcharts.com/sp500 Top-7 summieren). Aktuell ~33,8%.
   CONCENTRATION_MAG7: process.env.CONCENTRATION_MAG7 || 33.8,
