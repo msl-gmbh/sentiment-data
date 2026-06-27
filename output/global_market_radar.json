@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T15:18:52.851Z",
+  "generated_at": "2026-06-27T15:32:42.063Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -34,8 +34,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
     },
     {
       "id": "eaaa6a5f6b2114be",
@@ -61,192 +61,164 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
     },
     {
-      "id": "f3df57ab1483da2d",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB Consumer Expectations Survey results – May 2026",
+      "id": "003517bbf4d88235",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "SpaceX To Join Nasdaq 100 On July 7 , Set To Attract Billions In Passive Inflows",
       "assets": [
-        "Zinsen"
+        "Aktien"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
+      "summary": "Relevante Meldung zu Aktien.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
+          "name": "freepressjournal.in",
+          "url": "https://www.freepressjournal.in/business/spacex-to-join-nasdaq-100-on-july-7-set-to-attract-billions-in-passive-inflows"
         }
       ],
       "score": {
-        "total": 9,
+        "total": 11,
         "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
+        "institutional_flows": 2,
+        "magnitude": 2,
         "time_window": 3,
-        "source_quality": 3,
+        "source_quality": 1,
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
     },
     {
-      "id": "01a44dcb3db53bbc",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+      "id": "8d5428dee43e9cf3",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "ETH , XRP , DOGE price news : Majors fall 9 % over week as AI stocks lure buyers",
       "assets": [
-        "Zinsen"
+        "Aktien",
+        "Krypto"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
+          "name": "coindesk.com",
+          "url": "https://www.coindesk.com/markets/2026/06/27/dogecoin-and-hyperliquid-s-hype-led-weekly-crypto-losses-as-ai-stocks-lure-buyers"
         }
       ],
       "score": {
-        "total": 9,
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
-    },
-    {
-      "id": "6127b2a4c050faad",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB reports on progress towards euro adoption",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html"
-        }
-      ],
-      "score": {
-        "total": 9,
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
-    },
-    {
-      "id": "941565b29c5e168b",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB publishes consolidated banking data for end-December 2025",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260619~f097597c01.en.html"
-        }
-      ],
-      "score": {
-        "total": 9,
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
-    },
-    {
-      "id": "ef2e197cb866fdaa",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "New data release: ECB wage tracker points to stable negotiated wage pressures in 2026",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260617~79dfc49802.en.html"
-        }
-      ],
-      "score": {
-        "total": 9,
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
-    },
-    {
-      "id": "1e82ead4c1c2f60b",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-      "assets": [
-        "Krypto",
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "Quelle",
-          "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm]]>"
-        }
-      ],
-      "score": {
-        "total": 8,
+        "total": 10,
         "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
+    },
+    {
+      "id": "9323f759d0ee60fc",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "Bitcoin Slides Toward $58 , 000 As ETF Outflows And Options Expiry Add Pressure",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "newsbtc.com",
+          "url": "https://www.newsbtc.com/news/bitcoin-slides-toward-58-000-as-etf-outflows-and-options-expiry-add-pressure/"
+        }
+      ],
+      "score": {
+        "total": 10,
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
+    },
+    {
+      "id": "3db0949b27db0034",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "Bitcoin Tests $59K as ETF Outflows and Options Expiry Weigh on Market",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-tests-59k-etf-outflows-173200686.html"
+        }
+      ],
+      "score": {
+        "total": 10,
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
+    },
+    {
+      "id": "619a6616dbaad974",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Dollar Weakens on Strength in Stocks and Lower Bond Yields",
+      "assets": [
+        "Aktien",
+        "Zinsen",
+        "USD/FX"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Zinsen, USD/FX.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-weakens-strength-stocks-lower-144055963.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 3,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
@@ -254,11 +226,46 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-27T15:18:52.851Z",
-      "expires_at": "2026-07-04T15:18:52.851Z"
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
+    },
+    {
+      "id": "449b80f2411b646c",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Managing Bitcoin Volatility : The Case for Yield & Equity DRIPs",
+      "assets": [
+        "Aktien",
+        "Krypto",
+        "Zinsen",
+        "Vola/Stress"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto, Zinsen, Vola/Stress.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/managing-bitcoin-volatility-case-yield-110030092.html"
+        }
+      ],
+      "score": {
+        "total": 9,
+        "asset_relevance": 3,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-06-27T15:32:42.063Z",
+      "expires_at": "2026-07-04T15:32:42.063Z"
     }
   ],
-  "noise_filtered": 13,
+  "noise_filtered": 34,
   "notifications": {
     "telegram_sent": 0
   }
