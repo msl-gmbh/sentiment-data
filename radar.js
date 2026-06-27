@@ -15,8 +15,8 @@ const path = require("path");
 const crypto = require("crypto");
 
 const DIR = __dirname;
-const CFG = path.join(DIR, "config");
-const OUT = path.join(DIR, "output");
+const CFG = DIR;                       // Configs liegen flach neben radar.js (Repo-Wurzel)
+const OUT = path.join(DIR, "output");  // wird automatisch angelegt
 if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
 
 const CONFIG = {
@@ -28,6 +28,13 @@ const CONFIG = {
 const RULES   = readJson(path.join(CFG, "radar_rules.json"));
 const SOURCES = readJson(path.join(CFG, "sources.json"));
 const CAL_CFG = readJson(path.join(CFG, "calendar_events.json"));
+
+if (!RULES.levels || !RULES.score_max) {
+  console.error("FEHLER: radar_rules.json fehlt oder ist unvollstaendig.");
+  console.error("Erwartet: " + path.join(CFG, "radar_rules.json"));
+  console.error("Pruefe, ob der Ordner radar/config/ mit allen drei JSONs im Repo liegt.");
+  process.exit(1);
+}
 
 /* ----------------------------------------------------------- Helfer */
 function readJson(p, fallback) {
@@ -353,4 +360,4 @@ function telegramMessage(a) {
   if (arch) fs.appendFileSync(path.join(OUT, "archive.jsonl"), arch + "\n");
 
   console.log("Fertig. Alerts: " + alerts.length + " | hoechstes Level: " + highest + " | Telegram gesendet: " + sent + " | Laerm gefiltert: " + noise);
-})();
+})().catch(e => { console.error("Radar-Lauf fehlgeschlagen:", (e && e.stack) || e); process.exit(1); });
