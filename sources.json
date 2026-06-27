@@ -1,0 +1,26 @@
+{
+  "_hinweis": "Quellen aktivierbar/erweiterbar. RSS-Feed-URLs vor Live-Betrieb pruefen (manche blocken Cloud-IPs).",
+
+  "gdelt": {
+    "enabled": true,
+    "query": "(market OR stocks OR \"interest rate\" OR bitcoin OR gold OR \"credit spread\" OR rebalancing OR \"index reconstitution\" OR \"sovereign fund\")",
+    "timespan": "1d",
+    "maxrecords": 60
+  },
+
+  "rss": {
+    "enabled": true,
+    "feeds": [
+      "https://www.federalreserve.gov/feeds/press_all.xml",
+      "https://www.ecb.europa.eu/rss/press.html"
+    ]
+  },
+
+  "fred_series": {
+    "vix":   "VIXCLS",
+    "vix3m": "VXVCLS",
+    "hyoas": "BAMLH0A0HYM2",
+    "dgs10": "DGS10",
+    "dgs2":  "DGS2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_hinweis": "Hier NUR Termine eintragen, die der Code nicht selbst berechnen kann (Fed, EZB, CPI, Index-Rebalancing, ETF-Entscheidungen, Krypto-Unlocks). Quartalsende, Monatsende, Opex (3. Freitag) und Triple Witching berechnet radar.js automatisch. Datumsformat: YYYY-MM-DD.",
+  "_beispiel_bitte_durch_echte_termine_ersetzen": true,
+
+  "events": [
+    { "date": "2026-07-29", "type": "fed_fomc",   "title": "BEISPIEL: FOMC-Zinsentscheid", "assets": ["Zinsen","Aktien","USD/FX"] },
+    { "date": "2026-07-15", "type": "cpi",         "title": "BEISPIEL: US-CPI-Daten",        "assets": ["Zinsen","Aktien"] },
+    { "date": "2026-06-26", "type": "index_rebal", "title": "BEISPIEL: Russell Reconstitution", "assets": ["Aktien"] }
+  ]
+}
