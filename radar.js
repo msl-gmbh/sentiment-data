@@ -133,7 +133,120 @@ async function fetchRss() {
   return out;
 }
 
-/* ----------------------------------------------------------- Kalender */
+/* ----------------------------------------------------------- Dynamischer Kalender (FMP + FRED) */
+// Zieht geplante Termine fuer die naechsten 30 Tage automatisch.
+// Faellt graceful auf die statische calendar_events.json zurueck.
+const FMP_EVENT_MAP = {
+  "fomc": "fed_fomc", "federal reserve": "fed_fomc", "fed interest": "fed_fomc",
+  "ecb": "ecb", "european central bank": "ecb",
+  "cpi": "cpi", "consumer price index": "cpi",
+  "pce": "pce", "personal consumption": "pce",
+  "nonfarm": "nfp", "unemployment": "nfp",
+  "gdp": "gdp",
+  "msci": "index_rebal", "russell": "index_rebal", "s&p rebalancing": "index_rebal"
+};
+const FMP_ASSET_MAP = {
+  "fed_fomc": ["Zinsen","Aktien","USD/FX","Krypto"],
+  "ecb":      ["Zinsen","Aktien","USD/FX"],
+  "cpi":      ["Zinsen","Aktien","USD/FX","Gold/Silber"],
+  "pce":      ["Zinsen","Aktien","USD/FX"],
+  "nfp":      ["Zinsen","Aktien","USD/FX"],
+  "gdp":      ["Zinsen","Aktien"],
+  "index_rebal": ["Aktien"]
+};
+
+async function fetchFmpCalendar(fromDate, toDate) {
+  const key = process.env.FMP_KEY || "";
+  if (!key || /DEIN_/.test(key)) return [];
+  const url = "https://financialmodelingprep.com/api/v3/economic_calendar?from=" + fromDate + "&to=" + toDate + "&apikey=" + key;
+  const j = await getJSON(url);
+  if (!j || !Array.isArray(j)) { console.warn("  ! FMP Kalender: kein Array (ggf. Tier-Einschraenkung -> statische JSON)"); return []; }
+  const events = [];
+  for (const e of j) {
+    if (e.importance !== "High" && e.impact !== "High") continue; // nur High-Impact
+    const titleLow = lower(e.event || "");
+    let type = null;
+    for (const [kw, t] of Object.entries(FMP_EVENT_MAP)) if (titleLow.includes(kw)) { type = t; break; }
+    if (!type) continue;
+    const date = (e.date || "").slice(0, 10);
+    if (!date) continue;
+    events.push({ date, type, title: (e.event || type), assets: FMP_ASSET_MAP[type] || ["Aktien"], source: "fmp" });
+  }
+  console.log("  > FMP Kalender: " + events.length + " High-Impact-Termine geladen");
+  return events;
+}
+
+async function fetchFredReleases(fromDate, toDate) {
+  const key = CONFIG.FRED_KEY;
+  if (!key || /DEIN_/.test(key)) return [];
+  // FRED Release-Dates fuer wichtige Serien (CPI=Release 10, PCE=Release 17, NFP=Release 50)
+  const releaseIds = [
+    {id: 10, type: "cpi",  title: "US CPI-Daten"},
+    {id: 50, type: "nfp",  title: "US Arbeitsmarktdaten (NFP)"},
+    {id: 17, type: "pce",  title: "US PCE-Daten"}
+  ];
+  const events = [];
+  for (const rel of releaseIds) {
+    const url = "https://api.stlouisfed.org/fred/release/dates?release_id=" + rel.id +
+                "&realtime_start=" + fromDate + "&realtime_end=" + toDate +
+                "&api_key=" + key + "&file_type=json&limit=5&sort_order=asc";
+    const j = await getJSON(url);
+    const dates = (j && j.release_dates) || [];
+    for (const d of dates) {
+      const date = d.date;
+      if (date >= fromDate && date <= toDate)
+        events.push({ date, type: rel.type, title: rel.title, assets: FMP_ASSET_MAP[rel.type] || ["Zinsen","Aktien"], source: "fred" });
+    }
+  }
+  if (events.length) console.log("  > FRED Release-Kalender: " + events.length + " Termine geladen");
+  return events;
+}
+
+async function buildDynamicCalendar(now) {
+  const fromDate = fmtDate(now);
+  const toDate = fmtDate(new Date(now.getTime() + 30 * 86400000));
+
+  // 1) Dynamische Quellen (parallel)
+  const [fmpEvents, fredEvents] = await Promise.all([
+    fetchFmpCalendar(fromDate, toDate),
+    fetchFredReleases(fromDate, toDate)
+  ]);
+
+  // 2) Statische manuelle Events (Fallback + Ergaenzung)
+  const manualEvents = (CAL_CFG.events || [])
+    .map(e => ({ ...e, date: e.date, source: "manual" }))
+    .filter(e => e.date >= fromDate && e.date <= toDate);
+
+  // 3) Zusammenfuehren: dynamische Events haben Vorrang, manuelle ergaenzen
+  const seen = new Set();
+  const merged = [];
+  for (const e of [...fmpEvents, ...fredEvents, ...manualEvents]) {
+    const key = e.type + ":" + e.date;
+    if (!seen.has(key)) { seen.add(key); merged.push(e); }
+  }
+
+  // 4) Auto-Kalender (Opex, Quartalsende, Monatsende) immer dazu
+  const auto = autoCalendar(now);
+
+  // 5) Fensterfiltert + sortiert (naechste 14T)
+  const win = [], allEvents = [...merged, ...auto.map(e => ({...e, date: fmtDate(e.date), source: "auto"}))];
+  let nearest = null, cashWindow = false;
+  for (const e of allEvents) {
+    const d = daysFromNow(new Date(e.date), now);
+    if (d >= 0 && d <= 14) {
+      win.push({ ...e, days: d });
+      if (nearest === null || d < nearest) nearest = d;
+      const cashType = ["quarter_end","month_end","opex","index_rebal"].includes(e.type);
+      if (d <= 5 && cashType) cashWindow = true;
+    }
+  }
+  win.sort((a, b) => a.days - b.days);
+
+  const sourcesSummary = [...new Set(win.map(e => e.source))].join("+");
+  console.log("  Kalender: " + win.length + " Termine in 14T (Quellen: " + sourcesSummary + "), naechster in " + nearest + "T, Cash-Fenster: " + cashWindow);
+  return { events: win, nearest, cashWindow };
+}
+
 function thirdFriday(y, m) {
   let d = new Date(Date.UTC(y, m, 1)), cnt = 0;
   while (true) { if (d.getUTCDay() === 5) { cnt++; if (cnt === 3) break; } d.setUTCDate(d.getUTCDate() + 1); }
@@ -348,7 +461,7 @@ function telegramMessage(a) {
   console.log("MSL Global Market Radar — Lauf " + now.toISOString());
 
   const hard = await fetchHardData();
-  const cal = buildCalendar(now);
+  const cal = await buildDynamicCalendar(now);
   console.log("  Kalender: " + cal.events.length + " Termine in 14T, naechster in " + cal.nearest + "T, Cash-Fenster: " + cal.cashWindow);
 
   const [gdelt, rss] = await Promise.all([fetchGdelt(), fetchRss()]);
