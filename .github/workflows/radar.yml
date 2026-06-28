@@ -44,5 +44,7 @@ jobs:
             echo "Keine Aenderung."
           else
             git commit -m "radar: $(date -u +%FT%TZ)"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || { echo "Push-Versuch $i fehlgeschlagen, neuer Versuch..."; sleep 5; }
+            done
           fi

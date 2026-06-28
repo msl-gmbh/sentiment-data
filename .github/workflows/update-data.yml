@@ -5,7 +5,7 @@ name: Update Live Data
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # alle 2 Stunden (UTC). Anpassbar: z.B. "0 6-22/2 * * *"
+    - cron: "0 */6 * * *"   # alle 6 Stunden (UTC): 00, 06, 12, 18 Uhr. 4x/Tag.
   workflow_dispatch: {}       # erlaubt manuelles Starten im Actions-Tab
 
 permissions:
@@ -49,5 +49,7 @@ jobs:
             echo "Keine Aenderung an live-data.json."
           else
             git commit -m "data: live-data.json $(date -u +%FT%TZ)"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || { echo "Push-Versuch $i fehlgeschlagen, neuer Versuch..."; sleep 5; }
+            done
           fi
