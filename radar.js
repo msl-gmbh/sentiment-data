@@ -189,7 +189,8 @@ async function fetchFredReleases(fromDate, toDate) {
   for (const rel of releaseIds) {
     const url = "https://api.stlouisfed.org/fred/release/dates?release_id=" + rel.id +
                 "&realtime_start=" + fromDate + "&realtime_end=" + toDate +
-                "&api_key=" + key + "&file_type=json&limit=5&sort_order=asc";
+                "&include_release_dates_with_no_data=true" +
+                "&api_key=" + key + "&file_type=json&limit=10&sort_order=asc";
     const j = await getJSON(url);
     const dates = (j && j.release_dates) || [];
     for (const d of dates) {
@@ -462,7 +463,6 @@ function telegramMessage(a) {
 
   const hard = await fetchHardData();
   const cal = await buildDynamicCalendar(now);
-  console.log("  Kalender: " + cal.events.length + " Termine in 14T, naechster in " + cal.nearest + "T, Cash-Fenster: " + cal.cashWindow);
 
   const [gdelt, rss] = await Promise.all([fetchGdelt(), fetchRss()]);
   const news = gdelt.concat(rss);

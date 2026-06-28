@@ -20,7 +20,7 @@ const CONFIG = {
   NAAIM_WEEKLY: process.env.NAAIM_WEEKLY || 79.27,
   // Put/Call (Equity) hat keine freie Live-API mehr (CBOE-Archiv eingefroren).
   // Optional Wert eintragen (z.B. von stockcharts.com $CPCE), sonst bleibt es n/a:
-  PUTCALL_MANUAL: process.env.PUTCALL_MANUAL || 0.59,
+  PUTCALL_MANUAL: process.env.PUTCALL_MANUAL || null,
   // Konzentrations-Niveau (Mag-7-Gewicht im S&P 500) — keine freie Auto-Quelle, aendert sich langsam.
   // Monatlich grob aktualisieren (z.B. slickcharts.com/sp500 Top-7 summieren). Aktuell ~33,8%.
   CONCENTRATION_MAG7: process.env.CONCENTRATION_MAG7 || 33.8,
@@ -157,6 +157,9 @@ async function naaim() {
       }
     }
   } catch (e) { console.warn("  ! naaim.csv Lesefehler: " + e.message); }
+  // 2.5) manual_values.json (KI-geholt oder manuell eingetragen)
+  const mv = manualVal("naaim");
+  if (mv !== null) { naaimConf = manualConf("naaim"); console.log("  > NAAIM aus manual_values.json (" + mv + ", " + naaimConf + ")"); return mv; }
   // 3) CONFIG-Wochenwert (manueller Fallback — immer vorhanden, wenn gesetzt)
   const w = num(CONFIG.NAAIM_WEEKLY);
   if (w !== null) { naaimConf = "lag"; console.log("  > NAAIM Fallback CONFIG-Wochenwert (" + w + ")"); return w; }
@@ -241,7 +244,8 @@ async function collect() {
 
   const LIVE = {
     naaim: na,            naaim_conf: naaimConf,
-    putcall: pc,          putcall_conf: (pc===null?"pend":"lag"),
+    putcall: manualVal("putcall") ?? pc,
+    putcall_conf: manualVal("putcall") !== null ? manualConf("putcall") : (pc===null?"pend":"lag"),
     cnnfg: cnn,           cnnfg_conf: flag(cnn),
     vixterm: vixterm,     vixterm_conf: flag(vixterm),
     mvrv: mvrv,           mvrv_conf: flag(mvrv),
@@ -253,7 +257,8 @@ async function collect() {
     wti: wti,             wti_conf: flag(wti),
     breadth: br,          breadth_conf: flag(br, "est"),
     rotation: null,       rotation_conf: "pend", // kommt aus eurer Engine (§7.2), nicht per API
-    concentration: num(CONFIG.CONCENTRATION_MAG7), concentration_conf: "lag", // manuell, langsam veraenderlich
+    concentration: manualVal("concentration_mag7") ?? num(CONFIG.CONCENTRATION_MAG7),
+    concentration_conf: manualVal("concentration_mag7") !== null ? manualConf("concentration_mag7") : "lag",
     updated: new Date().toISOString()
   };
   // Pro-Wert-Zeitstempel: nur fuer frisch geholte (nicht-null) Werte = jetzt.
@@ -289,6 +294,22 @@ function writeJson(LIVE) {
   }
   fs.writeFileSync(out, JSON.stringify(merged, null, 2), "utf8");
   console.log("  > geschrieben: " + out);
+}
+
+/* ---- manual_values.json: KI-geholte oder manuell gepflegte Werte (Vorrang vor Secrets) ---- */
+function loadManualValues() {
+  try { return JSON.parse(fs.readFileSync("manual_values.json", "utf8")); } catch { return {}; }
+}
+const MANUAL = loadManualValues();
+function manualVal(key) {
+  const e = MANUAL[key];
+  if (!e || e.value === null || e.value === undefined) return null;
+  return num(e.value);
+}
+function manualConf(key) {
+  const e = MANUAL[key];
+  if (!e || e.value === null || e.value === undefined) return null;
+  return (e.method === "ai") ? "live" : "lag";
 }
 
 /* ---------------------------------------------------------------- INJECT */

@@ -18,31 +18,31 @@
       "label": "Laerm"
     },
     {
-      "min": 6,
+      "min": 8,
       "level": 1,
       "type": "context",
       "label": "Kontext"
     },
     {
-      "min": 10,
+      "min": 13,
       "level": 2,
       "type": "watch",
       "label": "Watch"
     },
     {
-      "min": 15,
+      "min": 17,
       "level": 3,
       "type": "cash_deployment_watch",
       "label": "Cash-Deployment-Watch"
     },
     {
-      "min": 20,
+      "min": 22,
       "level": 4,
       "type": "critical_watch",
       "label": "Critical Watch"
     }
   ],
-  "telegram_min_level": 2,
+  "telegram_min_level": 3,
   "alert_expiry_days": 7,
   "asset_keywords": {
     "Aktien": [
@@ -154,7 +154,19 @@
     "to the moon",
     "will skyrocket",
     "is this the end",
-    "analyst predicts"
+    "analyst predicts",
+    "secret",
+    "hidden",
+    "must read",
+    "breaking",
+    "urgent",
+    "just in",
+    "this is huge",
+    "massive warning",
+    "collapse imminent",
+    "you need to know",
+    "don't miss",
+    "act now"
   ],
   "source_whitelist": [
     "reuters.com",
@@ -168,10 +180,18 @@
     "sec.gov",
     "cftc.gov",
     "coindesk.com",
-    "marketwatch.com"
+    "marketwatch.com",
+    "finance.yahoo.com",
+    "seeking alpha",
+    "businessinsider.com",
+    "bis.org",
+    "imf.org",
+    "worldbank.org",
+    "bls.gov"
   ],
   "llm": {
     "enabled": true,
     "model": "claude-sonnet-4-6"
-  }
+  },
+  "_filter_note": "ab v0.2: Schwellen erhöht (Lärm<8, Kontext 8-12, Watch 13-16, Level3 17+, Level4 22+)"
 }

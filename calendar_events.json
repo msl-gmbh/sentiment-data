@@ -1,10 +1,27 @@
 {
-  "_hinweis": "Hier NUR Termine eintragen, die der Code nicht selbst berechnen kann (Fed, EZB, CPI, Index-Rebalancing, ETF-Entscheidungen, Krypto-Unlocks). Quartalsende, Monatsende, Opex (3. Freitag) und Triple Witching berechnet radar.js automatisch. Datumsformat: YYYY-MM-DD.",
-  "_beispiel_bitte_durch_echte_termine_ersetzen": true,
+  "_hinweis": "Manuelle Termine (Fed, EZB, CPI, Rebalancing). Quartalsende/Monatsende/Opex berechnet radar.js automatisch. Datum = Entscheidungstag (2. Sitzungstag). Bitte jährlich aktualisieren.",
+  "_beispiel_bitte_durch_echte_termine_ersetzen": false,
 
   "events": [
-    { "date": "2026-07-29", "type": "fed_fomc",   "title": "BEISPIEL: FOMC-Zinsentscheid", "assets": ["Zinsen","Aktien","USD/FX"] },
-    { "date": "2026-07-15", "type": "cpi",         "title": "BEISPIEL: US-CPI-Daten",        "assets": ["Zinsen","Aktien"] },
-    { "date": "2026-06-26", "type": "index_rebal", "title": "BEISPIEL: Russell Reconstitution", "assets": ["Aktien"] }
+    { "date": "2026-07-29", "type": "fed_fomc",   "title": "Fed FOMC Zinsentscheid",  "assets": ["Zinsen","Aktien","USD/FX","Krypto"] },
+    { "date": "2026-09-16", "type": "fed_fomc",   "title": "Fed FOMC Zinsentscheid (SEP/Dot-Plot)", "assets": ["Zinsen","Aktien","USD/FX","Krypto"] },
+    { "date": "2026-10-28", "type": "fed_fomc",   "title": "Fed FOMC Zinsentscheid",  "assets": ["Zinsen","Aktien","USD/FX"] },
+    { "date": "2026-12-09", "type": "fed_fomc",   "title": "Fed FOMC Zinsentscheid (SEP/Dot-Plot)", "assets": ["Zinsen","Aktien","USD/FX","Krypto"] },
+
+    { "date": "2026-07-23", "type": "ecb",        "title": "EZB Zinsentscheid",       "assets": ["Zinsen","Aktien","USD/FX"] },
+    { "date": "2026-09-10", "type": "ecb",        "title": "EZB Zinsentscheid",       "assets": ["Zinsen","Aktien","USD/FX"] },
+    { "date": "2026-10-29", "type": "ecb",        "title": "EZB Zinsentscheid",       "assets": ["Zinsen","Aktien","USD/FX"] },
+    { "date": "2026-12-17", "type": "ecb",        "title": "EZB Zinsentscheid",       "assets": ["Zinsen","Aktien","USD/FX"] },
+
+    { "date": "2026-07-14", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+    { "date": "2026-08-12", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+    { "date": "2026-09-11", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+    { "date": "2026-10-13", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+    { "date": "2026-11-12", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+    { "date": "2026-12-11", "type": "cpi",        "title": "US CPI-Daten",            "assets": ["Zinsen","Aktien","USD/FX","Gold/Silber"] },
+
+    { "date": "2026-06-26", "type": "index_rebal","title": "Russell Reconstitution (Indexanpassung, Stichtag)", "assets": ["Aktien"] },
+    { "date": "2026-09-22", "type": "index_rebal","title": "MSCI Quarterly Rebalancing",  "assets": ["Aktien"] },
+    { "date": "2026-12-21", "type": "index_rebal","title": "MSCI Quarterly Rebalancing",  "assets": ["Aktien"] }
   ]
 }
