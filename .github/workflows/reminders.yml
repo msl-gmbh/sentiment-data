@@ -1,0 +1,54 @@
+name: MSL Reminders
+
+# Prüft täglich ob manuelle Pflege-Aufgaben fällig sind und schickt Erinnerungen.
+# Telegram = Pflicht. Email = optional (nur wenn SMTP_* Secrets gesetzt).
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # täglich 08:00 UTC (= 10:00 CEST / 09:00 CET)
+  workflow_dispatch: {}    # manuell startbar zum Testen
+
+permissions:
+  contents: write
+
+concurrency:
+  group: msl-reminders
+  cancel-in-progress: false
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Node einrichten
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Erinnerungen prüfen und senden
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Email (optional - nur ausfüllen wenn gewünscht):
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_TO:   ${{ secrets.SMTP_TO }}
+        run: node reminders.js
+
+      - name: Status committen (nur bei Änderung)
+        run: |
+          git config user.name "msl-reminder-bot"
+          git config user.email "msl-reminder-bot@users.noreply.github.com"
+          git add output/reminder_state.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "reminders: state $(date -u +%FT%TZ)"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || sleep 5
+            done
+          fi

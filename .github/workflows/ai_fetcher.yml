@@ -1,0 +1,50 @@
+name: MSL AI Fetcher
+
+# Holt manuelle Werte automatisch per Claude + Web Search.
+# Laeuft vor den Erinnerungen (07:00) damit reminders.js den aktuellen Status sieht.
+# Schedule: Mittwochs (NAAIM), Werktags (Put/Call), 1. des Monats (Mag-7).
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # täglich 07:00 UTC — intern nach Wochentag/Datum gefiltert
+  workflow_dispatch: {}   # manuell startbar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: msl-ai-fetcher
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Node einrichten
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: KI-Abruf starten
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node ai_fetcher.js
+
+      - name: Ergebnis committen (nur bei Änderung)
+        run: |
+          git config user.name "msl-ai-fetcher-bot"
+          git config user.email "msl-ai-fetcher-bot@users.noreply.github.com"
+          git add manual_values.json output/
+          if git diff --staged --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "ai-fetch: $(date -u +%FT%TZ)"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || sleep 5
+            done
+          fi

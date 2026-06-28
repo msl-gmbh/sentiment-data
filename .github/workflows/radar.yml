@@ -5,7 +5,7 @@ name: Global Market Radar
 
 on:
   schedule:
-    - cron: "20 */3 * * *"   # alle 3 Stunden (UTC). News-tauglich, API-schonend. Anpassbar.
+    - cron: "0 */3 * * *"   # alle 3 Stunden (UTC). News-tauglich, API-schonend. Anpassbar.
   workflow_dispatch: {}
 
 permissions:
