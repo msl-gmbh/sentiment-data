@@ -339,7 +339,12 @@ function scoreCalendarEvent(e, hard) {
     cash_deployment:     4
   };
   const total = Object.values(f).reduce((a, b) => a + b, 0);
-  const lvl = levelFor(total);
+  let lvl = levelFor(total);
+  // Bestimmte Kalender-Typen pushen immer mindestens Level 3 (Cash-Deployment-Watch Baseline)
+  const alwaysPush = RULES.calendar_always_push || [];
+  if (alwaysPush.includes(e.type) && lvl.level < 3) {
+    lvl = levelFor(RULES.levels.find(l => l.level === 3).min);
+  }
   return {
     item: { title: e.title, url: "", source: "Kalender", date: fmtDate(e.date) },
     assets: e.assets || ["Aktien"], factors: f, total, level: lvl.level, type: lvl.type, label: lvl.label,

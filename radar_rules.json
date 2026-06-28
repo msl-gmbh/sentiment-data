@@ -42,7 +42,7 @@
       "label": "Critical Watch"
     }
   ],
-  "telegram_min_level": 2,
+  "telegram_min_level": 3,
   "alert_expiry_days": 7,
   "asset_keywords": {
     "Aktien": [
@@ -193,5 +193,13 @@
     "enabled": true,
     "model": "claude-sonnet-4-6"
   },
-  "_filter_note": "ab v0.2: Schwellen erhöht (Lärm<8, Kontext 8-12, Watch 13-16, Level3 17+, Level4 22+)"
+  "_filter_note": "ab v0.2: Schwellen erhöht (Lärm<8, Kontext 8-12, Watch 13-16, Level3 17+, Level4 22+)",
+  "calendar_always_push": [
+    "quarter_end",
+    "index_rebal",
+    "fed_fomc",
+    "ecb",
+    "opex",
+    "cpi"
+  ]
 }
