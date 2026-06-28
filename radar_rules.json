@@ -42,7 +42,7 @@
       "label": "Critical Watch"
     }
   ],
-  "telegram_min_level": 3,
+  "telegram_min_level": 2,
   "alert_expiry_days": 7,
   "asset_keywords": {
     "Aktien": [
