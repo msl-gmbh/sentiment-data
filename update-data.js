@@ -231,6 +231,32 @@ async function breadth() {
 /* --------------------------------------------------------------- ASSEMBLY */
 function flag(v, live = "live") { return v === null ? "pend" : live; }
 
+/* ------- BTC-Historien-Management (§0.3e: rollierende Perzentil-Gates) ------- */
+const HIST_FILE = "btc_history.json";
+const HIST_WINDOW_DAYS = 4 * 365; // 4-Jahres-Fenster
+
+function loadHist() {
+  try { return JSON.parse(fs.readFileSync(HIST_FILE, "utf8")); }
+  catch { return { mvrv: [], puell: [], funding: [] }; }
+}
+function saveHist(h) { fs.writeFileSync(HIST_FILE, JSON.stringify(h)); }
+
+function appendHist(hist, key, val, today) {
+  if (val === null || val === undefined) return;
+  const cutoff = new Date(Date.now() - HIST_WINDOW_DAYS * 86400000).toISOString().slice(0, 10);
+  hist[key] = (hist[key] || []).filter(e => e.d >= cutoff);
+  if (!hist[key].some(e => e.d === today)) {
+    hist[key].push({ d: today, v: +val.toFixed(4) });
+    hist[key].sort((a, b) => a.d < b.d ? -1 : 1);
+  }
+}
+
+function percentile90(entries) {
+  if (!entries || entries.length < 30) return null; // min. 30 Datenpunkte
+  const vals = entries.map(e => e.v).sort((a, b) => a - b);
+  return +vals[Math.floor(vals.length * 0.9)].toFixed(4);
+}
+
 async function collect() {
   console.log("Hole Live-Werte ...");
   // Quellen ausserhalb BGeometrics parallel (verschiedene Hosts, kein gemeinsames Limit)
@@ -261,6 +287,18 @@ async function collect() {
   if (fund !== null) fund = +(fund * 100).toFixed(4);
   } // Ende bgeo-Cache-Block
 
+  // Historien-Update und rollierende Perzentil-Gates (§0.3e)
+  const today = new Date().toISOString().slice(0, 10);
+  const hist = loadHist();
+  appendHist(hist, "mvrv", mvrv, today);
+  appendHist(hist, "puell", puell, today);
+  appendHist(hist, "funding", fund, today);
+  saveHist(hist);
+  const mvrv_p90    = percentile90(hist.mvrv);
+  const puell_p90   = percentile90(hist.puell);
+  const funding_p90 = percentile90(hist.funding);
+  console.log("  P90-Gates: MVRV=" + mvrv_p90 + " | Puell=" + puell_p90 + " | Funding=" + funding_p90);
+
   const vixterm = (vix !== null && vix3m !== null && vix3m !== 0) ? +(vix / vix3m).toFixed(3) : null;
 
   const LIVE = {
@@ -280,6 +318,10 @@ async function collect() {
     rotation: null,       rotation_conf: "pend", // kommt aus eurer Engine (§7.2), nicht per API
     concentration: manualVal("concentration_mag7") ?? num(CONFIG.CONCENTRATION_MAG7),
     concentration_conf: manualVal("concentration_mag7") !== null ? manualConf("concentration_mag7") : "lag",
+    // §0.3e: rollierende 4J-90%-Perzentil-Gates (ersetzen absolute Schwellen)
+    mvrv_p90:    mvrv_p90,
+    puell_p90:   puell_p90,
+    funding_p90: funding_p90,
     updated: new Date().toISOString()
   };
   // Pro-Wert-Zeitstempel: nur fuer frisch geholte (nicht-null) Werte = jetzt.
