@@ -413,7 +413,8 @@ function toAlert(s, now) {
     what_it_does_not_mean: notMeaning(),
     investment_note: investNote(),
     sources: s.item.url ? [{ name: s.item.source || "Quelle", url: s.item.url }] : [],
-    score: { total: s.total, ...s.factors },
+    score: s.total,
+    score_detail: s.factors,
     created_at: now.toISOString(),
     expires_at: new Date(now.getTime() + (RULES.alert_expiry_days || 7) * 86400000).toISOString(),
     _community_text: communityText(s),   // intern, NICHT in oeffentliche JSON
@@ -458,7 +459,7 @@ function telegramMessage(a) {
     + "Cash-Deployment: " + a.investment_note + "\n\n"
     + "— Community-Entwurf" + (a._llm ? " (KI)" : "") + " —\n" + a._community_text + "\n\n"
     + "— Social-Media-Entwurf" + (a._llm ? " (KI)" : "") + " —\n" + a._social_text + "\n\n"
-    + "Score: " + a.score.total + " | Quelle: " + (a.sources[0] ? a.sources[0].url : "Kalender");
+    + "Score: " + a.score + " | Quelle: " + (a.sources[0] ? a.sources[0].url : "Kalender");
 }
 
 /* ----------------------------------------------------------- Hauptlauf */
