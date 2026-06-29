@@ -86,7 +86,21 @@ async function fmpQuote(sym) {
 
 // BGeometrics (Advanced) — MVRV-Z, Puell, Funding via bitcoin-data.com.
 // Key in BEIDE gaengige Header (x-api-key UND Authorization: Bearer) -> wird sicher erkannt.
+// WICHTIG: bitcoin-data.com begrenzt auf 2 verschiedene IPs/Tag (Advanced-Tier).
+// Deshalb: Tagescheck — wenn Werte heute schon geholt wurden, Cache aus live-data.json nutzen.
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+function bgeoAlreadyFetchedToday() {
+  try {
+    const j = JSON.parse(fs.readFileSync(CONFIG.JSON_OUT, "utf8"));
+    const ts = j && j.mvrv_ts;
+    if (!ts) return false;
+    const age = (Date.now() - new Date(ts).getTime()) / 3600000; // Stunden
+    if (age < 20) { console.log("  > bgeo: heute bereits geholt (" + age.toFixed(1) + "h alt) — nutze Cache, spare IP-Limit"); return true; }
+  } catch { /* keine JSON vorhanden */ }
+  return false;
+}
+
 async function bgeoOne(slug) {
   const url = `https://api.bitcoin-data.com/v1/${slug}/last`;
   const headers = {
@@ -228,17 +242,24 @@ async function collect() {
 
   // BGeometrics einzeln nacheinander mit Pause (schont das Rate-Limit -> kein 429)
   console.log("Hole BGeometrics (einzeln, mit Pause) ...");
-  const mvrv  = await bgeoOne("mvrv-zscore");    await sleep(2500);
-  const puell = await bgeoOne("puell-multiple"); await sleep(2500);
+  // BGeometrics: nur einmal täglich abrufen (IP-Limit = 2 IPs/Tag auf Advanced-Tier)
+  let mvrv = null, puell = null, fund = null;
+  if (bgeoAlreadyFetchedToday()) {
+    console.log("  > bgeo: Cache-Modus — Werte aus live-data.json weitergeführt");
+    // Werte kommen aus Merge-Keep-Last in writeJson/inject — hier null belassen ist korrekt
+  } else {
+    mvrv  = await bgeoOne("mvrv-zscore");    await sleep(2500);
+    puell = await bgeoOne("puell-multiple"); await sleep(2500);
   // Funding Rate liegt unter "Derivatives" — Slug-Schreibweise variiert, daher mehrere Varianten:
   let fund = null;
+  // Funding Rate liegt unter "Derivatives" — Slug-Schreibweise variiert:
   for (const slug of ["funding-rate", "funding", "btc-funding-rate", "derivatives-funding-rate", "open-interest-funding-rate"]) {
     fund = await bgeoOne(slug);
     if (fund !== null) break;
     await sleep(1800);
   }
-  // BGeometrics liefert Funding als Dezimalbruch (z.B. -0.00002582) -> in Prozent umrechnen
   if (fund !== null) fund = +(fund * 100).toFixed(4);
+  } // Ende bgeo-Cache-Block
 
   const vixterm = (vix !== null && vix3m !== null && vix3m !== 0) ? +(vix / vix3m).toFixed(3) : null;
 
