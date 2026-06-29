@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T17:12:25.701Z",
+  "generated_at": "2026-06-29T17:19:34.336Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -24,8 +24,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 16,
+      "score": 16,
+      "score_detail": {
         "asset_relevance": 2,
         "institutional_flows": 4,
         "magnitude": 0,
@@ -34,8 +34,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "ac2567cac77683a7",
@@ -53,8 +53,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 15,
+      "score": 15,
+      "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
@@ -63,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "eaaa6a5f6b2114be",
@@ -80,8 +80,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 13,
+      "score": 13,
+      "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
@@ -90,8 +90,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "d22c8aebf6da5219",
@@ -109,8 +109,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 13,
+      "score": 13,
+      "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
@@ -119,8 +119,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "f157afd5d676d5e9",
@@ -138,8 +138,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 13,
+      "score": 13,
+      "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
@@ -148,8 +148,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -168,8 +168,8 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": {
-        "total": 13,
+      "score": 13,
+      "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
@@ -178,8 +178,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "f3df57ab1483da2d",
@@ -200,8 +200,8 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
         }
       ],
-      "score": {
-        "total": 9,
+      "score": 9,
+      "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
@@ -210,8 +210,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     },
     {
       "id": "01a44dcb3db53bbc",
@@ -232,8 +232,8 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
         }
       ],
-      "score": {
-        "total": 9,
+      "score": 9,
+      "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
@@ -242,8 +242,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-29T17:12:25.701Z",
-      "expires_at": "2026-07-06T17:12:25.701Z"
+      "created_at": "2026-06-29T17:19:34.336Z",
+      "expires_at": "2026-07-06T17:19:34.336Z"
     }
   ],
   "noise_filtered": 29,
