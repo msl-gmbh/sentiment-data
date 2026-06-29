@@ -1,1 +1,12 @@
-{}
+{
+  "weekly_status:week:2026-W27": {
+    "sent": true,
+    "sent_at": "2026-06-29T17:48:52.759Z",
+    "telegram": true,
+    "email": false
+  },
+  "daily_pending:2026-06-29": {
+    "sent": true,
+    "sent_at": "2026-06-29T17:48:52.759Z"
+  }
+}
