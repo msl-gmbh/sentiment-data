@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:10:45.116Z",
+  "generated_at": "2026-06-30T11:29:54.197Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -34,8 +34,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
       "id": "ac2567cac77683a7",
@@ -63,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
       "id": "eaaa6a5f6b2114be",
@@ -90,8 +90,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
       "id": "d22c8aebf6da5219",
@@ -119,8 +119,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
       "id": "f157afd5d676d5e9",
@@ -148,8 +148,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -178,15 +178,15 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
-      "id": "f3df57ab1483da2d",
+      "id": "d3a212288195a906",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB Consumer Expectations Survey results – May 2026",
+      "title": "ECB publishes indicative operational calendars for 2028",
       "assets": [
         "Zinsen"
       ],
@@ -197,7 +197,7 @@
       "sources": [
         {
           "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630_1~ff55b9e99a.en.html"
         }
       ],
       "score": 9,
@@ -210,15 +210,15 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     },
     {
-      "id": "01a44dcb3db53bbc",
+      "id": "6f2ca5076a832847",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+      "title": "ECB publishes indicative operational calendars for 2027",
       "assets": [
         "Zinsen"
       ],
@@ -229,7 +229,7 @@
       "sources": [
         {
           "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html"
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630~9f54a0a4fb.en.html"
         }
       ],
       "score": 9,
@@ -242,11 +242,11 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-06-29T21:10:45.116Z",
-      "expires_at": "2026-07-06T21:10:45.116Z"
+      "created_at": "2026-06-30T11:29:54.197Z",
+      "expires_at": "2026-07-07T11:29:54.197Z"
     }
   ],
-  "noise_filtered": 30,
+  "noise_filtered": 29,
   "notifications": {
     "telegram_sent": 0
   }
