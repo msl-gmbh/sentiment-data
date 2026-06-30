@@ -282,28 +282,34 @@ function sendEmail(title, body) {
 
   saveState(state);
 
-  /* --- Tägliche Erinnerungen für needs_manual=true (Wert fehlt nach KI-Abruf) --- */
+  /* --- Erinnerungen für needs_manual=true (Wert fehlt nach KI-Abruf) — gestaffelte Intervalle --- */
   const manual = loadManualValues();
   const PENDING_TARGETS = [
-    { id: "naaim",             name: "NAAIM Exposure Index",
+    { id: "naaim",             name: "NAAIM Exposure Index", reminderDays: 1,
       tip: "naaim.org (Mittwochs-Wert) → Secret NAAIM_WEEKLY oder manual_values.json" },
-    { id: "putcall",           name: "Put/Call Ratio ($CPCE)",
+    { id: "putcall",           name: "Put/Call Ratio ($CPCE)", reminderDays: 7,
       tip: "stockcharts.com → Symbol $CPCE → Secret PUTCALL_MANUAL oder manual_values.json" },
-    { id: "concentration_mag7",name: "Mag-7 Konzentration",
+    { id: "concentration_mag7",name: "Mag-7 Konzentration", reminderDays: 7,
       tip: "slickcharts.com/sp500 → Top-7 summieren → Secret CONCENTRATION_MAG7 oder manual_values.json" }
   ];
-  const pending = PENDING_TARGETS.filter(t => manual[t.id] && manual[t.id].needs_manual === true);
-  if (pending.length > 0) {
-    const today  = fmtDate(now);
-    const pKey   = "daily_pending:" + today;
-    const alreadySent = state[pKey] && state[pKey].sent;
-    if (!alreadySent) {
-      const lines = ["⚠️ MANUELLE EINGABE ERFORDERLICH\n"];
-      lines.push("Der automatische Abruf ist fehlgeschlagen. Bitte heute eintragen:\n");
-      for (const t of pending) { lines.push("• " + t.name); lines.push("  " + t.tip); }
-      lines.push("\nIch erinnere täglich bis alle Werte aktuell sind.");
-      const ok = await sendTelegram("⚠️ Manuelle Werte fehlen", lines.join("\n"));
-      if (ok) { state[pKey] = { sent: true, sent_at: now.toISOString() }; sent++; }
+  // Nur Indikatoren aufnehmen, deren individuelles Intervall abgelaufen ist
+  const duePending = PENDING_TARGETS.filter(t => {
+    const m = manual[t.id];
+    if (!m || m.needs_manual !== true) return false;
+    const lastKey = "last_pending_reminder:" + t.id;
+    const last = state[lastKey] ? new Date(state[lastKey]) : null;
+    const daysSince = last ? (now - last) / 86400000 : Infinity;
+    return daysSince >= t.reminderDays;
+  });
+  if (duePending.length > 0) {
+    const lines = ["⚠️ MANUELLE EINGABE ERFORDERLICH\n"];
+    lines.push("Der automatische Abruf ist fehlgeschlagen. Bitte eintragen:\n");
+    for (const t of duePending) { lines.push("• " + t.name); lines.push("  " + t.tip); }
+    lines.push("\nRhythmus: NAAIM täglich · Put/Call & Mag-7 wöchentlich, bis aktuell.");
+    const ok = await sendTelegram("⚠️ Manuelle Werte fehlen", lines.join("\n"));
+    if (ok) {
+      for (const t of duePending) state["last_pending_reminder:" + t.id] = now.toISOString();
+      sent++;
     }
   }
 
