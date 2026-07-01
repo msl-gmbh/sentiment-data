@@ -4,29 +4,31 @@
     "value": 92.83,
     "source_url": "manual",
     "value_date": "2026-06-17",
-    "fetched_date": "2026-06-17",
-    "fetched_at": "2026-06-17T00:00:00Z",
-    "method": "manual",
-    "needs_manual": false
-  },
-  "putcall": {
-    "value": 0.59,
-    "source_url": "manual",
-    "value_date": "2026-06-30",
-    "fetched_date": "2026-06-30",
+    "fetched_date": "2026-07-01",
     "fetched_at": "2026-06-17T00:00:00Z",
     "method": "ai_failed",
     "needs_manual": true,
-    "last_fail_reason": "not found",
-    "last_fail_at": "2026-06-30T13:30:00.732Z"
+    "last_fail_reason": "kein Wert",
+    "last_fail_at": "2026-07-01T16:11:28.817Z"
+  },
+  "putcall": {
+    "value": 0.67,
+    "source_url": "ycharts.com",
+    "value_date": "2026-06-25",
+    "fetched_date": "2026-07-01",
+    "fetched_at": "2026-07-01T16:11:28.817Z",
+    "method": "ai",
+    "needs_manual": false
   },
   "concentration_mag7": {
     "value": 33.8,
     "source_url": "manual",
     "value_date": "2026-06-01",
-    "fetched_date": "2026-06-01",
+    "fetched_date": "2026-07-01",
     "fetched_at": "2026-06-01T00:00:00Z",
-    "method": "manual",
-    "needs_manual": false
+    "method": "ai_failed",
+    "needs_manual": true,
+    "last_fail_reason": "kein Wert",
+    "last_fail_at": "2026-07-01T16:11:28.817Z"
   }
 }
