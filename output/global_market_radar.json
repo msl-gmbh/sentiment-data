@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T18:23:55.311Z",
+  "generated_at": "2026-07-01T10:50:10.097Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-30T18:23:55.311Z",
-      "expires_at": "2026-07-07T18:23:55.311Z"
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
     },
     {
       "id": "d22c8aebf6da5219",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-30T18:23:55.311Z",
-      "expires_at": "2026-07-07T18:23:55.311Z"
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
     },
     {
       "id": "f157afd5d676d5e9",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-30T18:23:55.311Z",
-      "expires_at": "2026-07-07T18:23:55.311Z"
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -124,11 +124,77 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-06-30T18:23:55.311Z",
-      "expires_at": "2026-07-07T18:23:55.311Z"
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
+    },
+    {
+      "id": "f8eef6f05f59a3a0",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "BlackRock IBIT Sees $300M Outflow As Bitcoin ETF Rebalancing Deepens",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "newsbtc.com",
+          "url": "https://www.newsbtc.com/news/blackrock-s-ibit-sees-300m-outflow-as-bitcoin-etf-rebalancing-deepens/"
+        }
+      ],
+      "score": 12,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 4,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
+    },
+    {
+      "id": "0fcbb9b2e09ce6a2",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin and ethereum prices today , Tuesday , June 30 : Prices sliding , down about 40 % from last year",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-30-prices-sliding-down-about-40-from-last-year-124424056.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-07-01T10:50:10.097Z",
+      "expires_at": "2026-07-08T10:50:10.097Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 93,
   "notifications": {
     "telegram_sent": 0
   }
