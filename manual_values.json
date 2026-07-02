@@ -15,10 +15,12 @@
     "value": 0.67,
     "source_url": "ycharts.com",
     "value_date": "2026-06-25",
-    "fetched_date": "2026-07-01",
+    "fetched_date": "2026-07-02",
     "fetched_at": "2026-07-01T16:11:28.817Z",
-    "method": "ai",
-    "needs_manual": false
+    "method": "ai_failed",
+    "needs_manual": true,
+    "last_fail_reason": "not found",
+    "last_fail_at": "2026-07-02T13:20:50.300Z"
   },
   "concentration_mag7": {
     "value": 33.8,
