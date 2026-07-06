@@ -28,6 +28,12 @@
     "telegram": true,
     "email": false
   },
-  "last_pending_reminder:naaim": "2026-07-05T12:49:42.393Z",
-  "last_pending_reminder:concentration_mag7": "2026-07-01T16:43:06.737Z"
+  "last_pending_reminder:naaim": "2026-07-06T17:55:33.648Z",
+  "last_pending_reminder:concentration_mag7": "2026-07-01T16:43:06.737Z",
+  "weekly_status:week:2026-W28": {
+    "sent": true,
+    "sent_at": "2026-07-06T17:55:33.648Z",
+    "telegram": true,
+    "email": false
+  }
 }
