@@ -9,7 +9,7 @@
     "sent": true,
     "sent_at": "2026-06-29T17:48:52.759Z"
   },
-  "last_pending_reminder:putcall": "2026-06-30T08:21:21.073Z",
+  "last_pending_reminder:putcall": "2026-07-08T13:18:48.612Z",
   "monthly_concentration:month:2026-07": {
     "sent": true,
     "sent_at": "2026-07-01T16:43:06.737Z",
@@ -33,6 +33,12 @@
   "weekly_status:week:2026-W28": {
     "sent": true,
     "sent_at": "2026-07-06T17:55:33.648Z",
+    "telegram": true,
+    "email": false
+  },
+  "naaim_health:week:2026-W28": {
+    "sent": true,
+    "sent_at": "2026-07-08T13:18:48.612Z",
     "telegram": true,
     "email": false
   }
