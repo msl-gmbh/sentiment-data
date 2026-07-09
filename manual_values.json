@@ -10,15 +10,13 @@
     "needs_manual": false
   },
   "putcall": {
-    "value": 0.53,
+    "value": 0.69,
     "source_url": "ycharts.com",
-    "value_date": "2026-07-02",
-    "fetched_date": "2026-07-08",
-    "fetched_at": "2026-07-07T16:12:48.975Z",
-    "method": "ai_failed",
-    "needs_manual": true,
-    "last_fail_reason": "kein Wert",
-    "last_fail_at": "2026-07-08T12:07:45.277Z"
+    "value_date": "2026-07-07",
+    "fetched_date": "2026-07-09",
+    "fetched_at": "2026-07-09T16:17:50.848Z",
+    "method": "ai",
+    "needs_manual": false
   },
   "concentration_mag7": {
     "value": 33.8,
