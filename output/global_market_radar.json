@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:28:20.862Z",
+  "generated_at": "2026-07-10T08:52:26.743Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -7,7 +7,7 @@
   "hard_data": {
     "vix": 16.9,
     "vix3m": 19.46,
-    "hyoas": 2.67
+    "hyoas": 2.7
   },
   "alerts": [
     {
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-09T18:28:20.862Z",
-      "expires_at": "2026-07-16T18:28:20.862Z"
+      "created_at": "2026-07-10T08:52:26.743Z",
+      "expires_at": "2026-07-17T08:52:26.743Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -66,8 +66,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-09T18:28:20.862Z",
-      "expires_at": "2026-07-16T18:28:20.862Z"
+      "created_at": "2026-07-10T08:52:26.743Z",
+      "expires_at": "2026-07-17T08:52:26.743Z"
     },
     {
       "id": "75db5866f7eb9ec8",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-09T18:28:20.862Z",
-      "expires_at": "2026-07-16T18:28:20.862Z"
+      "created_at": "2026-07-10T08:52:26.743Z",
+      "expires_at": "2026-07-17T08:52:26.743Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-09T18:28:20.862Z",
-      "expires_at": "2026-07-16T18:28:20.862Z"
+      "created_at": "2026-07-10T08:52:26.743Z",
+      "expires_at": "2026-07-17T08:52:26.743Z"
     },
     {
       "id": "0f47da005867c792",
@@ -151,8 +151,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-09T18:28:20.862Z",
-      "expires_at": "2026-07-16T18:28:20.862Z"
+      "created_at": "2026-07-10T08:52:26.743Z",
+      "expires_at": "2026-07-17T08:52:26.743Z"
     }
   ],
   "noise_filtered": 35,
