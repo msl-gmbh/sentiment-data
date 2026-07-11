@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T07:23:41.494Z",
+  "generated_at": "2026-07-11T12:05:09.789Z",
   "highest_level": 3,
-  "cash_deployment": "normal",
+  "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -51,23 +51,23 @@
         "USD/FX",
         "Gold/Silber"
       ],
-      "time_window": "3 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 14,
+      "score": 15,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     },
     {
       "id": "75db5866f7eb9ec8",
@@ -80,8 +80,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "9 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "8 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -109,8 +109,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "12 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "11 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     },
     {
       "id": "0f47da005867c792",
@@ -136,125 +136,122 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 11,
+      "score": 12,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     },
     {
-      "id": "31ad11448c8cfd37",
+      "id": "d3a212288195a906",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Bitcoin holds above $63 , 000 despite ETF outflows ; $1 . 4 billion options expiry in focus",
+      "title": "ECB publishes indicative operational calendars for 2028",
       "assets": [
-        "Aktien",
-        "Krypto"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-above-63000-despite-etf-outflows-1-4-billion-options-expiry-in-focus/articleshow/132306333.cms"
-        }
-      ],
-      "score": 10,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 2,
-        "magnitude": 2,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
-    },
-    {
-      "id": "c4dfb972ba897674",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Japan  invest locally  plan likely to spur demand for assets like bitcoin ( BTC ), gold : Crypto Daily",
-      "assets": [
-        "Krypto",
-        "Gold/Silber"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, Gold/Silber.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "coindesk.com",
-          "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold"
-        }
-      ],
-      "score": 8,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
-    },
-    {
-      "id": "9628f048bc1d187c",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Bitcoin treasury company sells 48 % of holdings to repay debt",
-      "assets": [
-        "Krypto",
         "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, Zinsen.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-treasury-company-sells-48-213558524.html"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630_1~ff55b9e99a.en.html"
         }
       ],
-      "score": 8,
+      "score": 9,
       "score_detail": {
-        "asset_relevance": 2,
+        "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
         "source_quality": 3,
         "market_confirmation": 0,
-        "cash_deployment": 0
+        "cash_deployment": 2
       },
-      "created_at": "2026-07-11T07:23:41.494Z",
-      "expires_at": "2026-07-18T07:23:41.494Z"
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
+    },
+    {
+      "id": "6f2ca5076a832847",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB publishes indicative operational calendars for 2027",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630~9f54a0a4fb.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
+    },
+    {
+      "id": "f3df57ab1483da2d",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB Consumer Expectations Survey results – May 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-11T12:05:09.789Z",
+      "expires_at": "2026-07-18T12:05:09.789Z"
     }
   ],
-  "noise_filtered": 92,
+  "noise_filtered": 29,
   "notifications": {
     "telegram_sent": 0
   }
