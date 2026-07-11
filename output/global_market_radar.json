@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T21:39:00.772Z",
+  "generated_at": "2026-07-11T07:23:41.494Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-10T21:39:00.772Z",
-      "expires_at": "2026-07-17T21:39:00.772Z"
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -66,8 +66,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-10T21:39:00.772Z",
-      "expires_at": "2026-07-17T21:39:00.772Z"
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
     },
     {
       "id": "75db5866f7eb9ec8",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-10T21:39:00.772Z",
-      "expires_at": "2026-07-17T21:39:00.772Z"
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-10T21:39:00.772Z",
-      "expires_at": "2026-07-17T21:39:00.772Z"
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
     },
     {
       "id": "0f47da005867c792",
@@ -151,11 +151,110 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-10T21:39:00.772Z",
-      "expires_at": "2026-07-17T21:39:00.772Z"
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
+    },
+    {
+      "id": "31ad11448c8cfd37",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin holds above $63 , 000 despite ETF outflows ; $1 . 4 billion options expiry in focus",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-above-63000-despite-etf-outflows-1-4-billion-options-expiry-in-focus/articleshow/132306333.cms"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
+    },
+    {
+      "id": "c4dfb972ba897674",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Japan  invest locally  plan likely to spur demand for assets like bitcoin ( BTC ), gold : Crypto Daily",
+      "assets": [
+        "Krypto",
+        "Gold/Silber"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Gold/Silber.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "coindesk.com",
+          "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
+    },
+    {
+      "id": "9628f048bc1d187c",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin treasury company sells 48 % of holdings to repay debt",
+      "assets": [
+        "Krypto",
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-treasury-company-sells-48-213558524.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-07-11T07:23:41.494Z",
+      "expires_at": "2026-07-18T07:23:41.494Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 92,
   "notifications": {
     "telegram_sent": 0
   }
