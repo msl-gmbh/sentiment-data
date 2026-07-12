@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T18:08:07.339Z",
+  "generated_at": "2026-07-12T00:14:02.512Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     },
     {
       "id": "8c14a92b0dcac4d0",
@@ -66,8 +66,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     },
     {
       "id": "75db5866f7eb9ec8",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     },
     {
       "id": "0f47da005867c792",
@@ -151,31 +151,96 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     },
     {
-      "id": "d3a212288195a906",
+      "id": "c11c8bf6c055fc3d",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB publishes indicative operational calendars for 2028",
+      "title": "Strategy Says It Might Sell Up to $1 . 25 Billion in Bitcoin . So Is MSTR a Buy , Sell , or Hold Right Now ? ",
       "assets": [
-        "Zinsen"
+        "Krypto"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
+      "summary": "Relevante Meldung zu Krypto.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630_1~ff55b9e99a.en.html"
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-says-might-sell-1-093500999.html"
         }
       ],
-      "score": 9,
+      "score": 11,
       "score_detail": {
         "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
+    },
+    {
+      "id": "e80b46f6411b9504",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "The Iran Ceasefire Is Over . Which Cryptocurrencies Could See the Biggest Impact in 2026 ? ",
+      "assets": [
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/iran-ceasefire-over-cryptocurrencies-could-092000263.html"
+        }
+      ],
+      "score": 11,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
+    },
+    {
+      "id": "19111a317830a836",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Oil Is Below $76 . So Why Is Bitcoin Still Below $65 , 000 ? ",
+      "assets": [
+        "Krypto",
+        "Oel/Energie"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Oel/Energie.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/oil-below-76-why-bitcoin-202700018.html"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 2,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
@@ -183,75 +248,11 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
-    },
-    {
-      "id": "6f2ca5076a832847",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB publishes indicative operational calendars for 2027",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630~9f54a0a4fb.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
-    },
-    {
-      "id": "f3df57ab1483da2d",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB Consumer Expectations Survey results – May 2026",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-07-11T18:08:07.339Z",
-      "expires_at": "2026-07-18T18:08:07.339Z"
+      "created_at": "2026-07-12T00:14:02.512Z",
+      "expires_at": "2026-07-19T00:14:02.512Z"
     }
   ],
-  "noise_filtered": 29,
+  "noise_filtered": 78,
   "notifications": {
     "telegram_sent": 0
   }
