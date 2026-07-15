@@ -47,5 +47,11 @@
     "sent_at": "2026-07-13T16:57:11.854Z",
     "telegram": true,
     "email": false
+  },
+  "naaim_paid_warning:once:naaim_paid_2026": {
+    "sent": true,
+    "sent_at": "2026-07-15T12:54:19.483Z",
+    "telegram": true,
+    "email": false
   }
 }
