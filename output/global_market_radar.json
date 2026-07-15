@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-15T07:30:06.928Z",
+  "generated_at": "2026-07-15T15:08:51.522Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 17.16,
-    "vix3m": 19.64,
-    "hyoas": 2.69
+    "vix": 16.5,
+    "vix3m": 19.3,
+    "hyoas": 2.72
   },
   "alerts": [
     {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "5 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "4 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "0f47da005867c792",
@@ -48,8 +48,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -63,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -77,8 +77,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "8 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "7 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 7 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -92,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "200232b5554ffab3",
@@ -106,8 +106,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "12 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "11 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -121,8 +121,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "f0dc4bf8c808f259",
@@ -136,8 +136,8 @@
         "USD/FX",
         "Krypto"
       ],
-      "time_window": "14 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "13 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -151,8 +151,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "8093c301327b20e6",
@@ -183,8 +183,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "d3a212288195a906",
@@ -215,8 +215,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     },
     {
       "id": "6f2ca5076a832847",
@@ -247,8 +247,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-15T07:30:06.928Z",
-      "expires_at": "2026-07-22T07:30:06.928Z"
+      "created_at": "2026-07-15T15:08:51.522Z",
+      "expires_at": "2026-07-22T15:08:51.522Z"
     }
   ],
   "noise_filtered": 30,
