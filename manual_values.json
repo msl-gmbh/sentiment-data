@@ -1,20 +1,20 @@
 {
   "_hinweis": "Automatisch gepflegt von ai_fetcher.js. needs_manual=true loest taegl. Erinnerung aus.",
   "naaim": {
-    "value": 84.69,
+    "value": 82.95,
     "source_url": "ycharts.com",
-    "value_date": "2026-07-01",
-    "fetched_date": "2026-07-08",
-    "fetched_at": "2026-07-08T12:07:45.277Z",
+    "value_date": "2026-07-09",
+    "fetched_date": "2026-07-15",
+    "fetched_at": "2026-07-15T12:05:33.078Z",
     "method": "ai",
     "needs_manual": false
   },
   "putcall": {
-    "value": 0.55,
+    "value": 0.67,
     "source_url": "ycharts.com",
-    "value_date": "2026-07-10",
-    "fetched_date": "2026-07-14",
-    "fetched_at": "2026-07-14T11:59:55.009Z",
+    "value_date": "2026-07-13",
+    "fetched_date": "2026-07-15",
+    "fetched_at": "2026-07-15T12:05:33.078Z",
     "method": "ai",
     "needs_manual": false
   },
