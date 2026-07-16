@@ -10,11 +10,11 @@
     "needs_manual": false
   },
   "putcall": {
-    "value": 0.67,
-    "source_url": "ycharts.com",
-    "value_date": "2026-07-13",
-    "fetched_date": "2026-07-15",
-    "fetched_at": "2026-07-15T12:05:33.078Z",
+    "value": 0.62,
+    "source_url": "macromicro.me",
+    "value_date": "2026-07-14",
+    "fetched_date": "2026-07-16",
+    "fetched_at": "2026-07-16T12:10:11.283Z",
     "method": "ai",
     "needs_manual": false
   },
