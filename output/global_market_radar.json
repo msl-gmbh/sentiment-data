@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-16T07:37:45.994Z",
+  "generated_at": "2026-07-16T15:19:49.485Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 16.5,
-    "vix3m": 19.3,
-    "hyoas": 2.72
+    "vix": 15.67,
+    "vix3m": 18.91,
+    "hyoas": 2.71
   },
   "alerts": [
     {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "4 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "3 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,41 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
+    },
+    {
+      "id": "2c354e53b9ddf207",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "MSCI India Index Rejig May Trigger $2 . 3 Billion Passive Inflows",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "freepressjournal.in",
+          "url": "https://www.freepressjournal.in/business/msci-india-index-rejig-may-trigger-23-billion-passive-inflows"
+        }
+      ],
+      "score": 13,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 4,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z",
+      "_llm": true
     },
     {
       "id": "0f47da005867c792",
@@ -48,8 +81,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "1 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "0 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 0 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -63,8 +96,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -77,8 +110,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "7 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 7 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "6 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -92,8 +125,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
     },
     {
       "id": "200232b5554ffab3",
@@ -106,8 +139,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "11 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "10 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -121,8 +154,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
     },
     {
       "id": "f0dc4bf8c808f259",
@@ -136,8 +169,8 @@
         "USD/FX",
         "Krypto"
       ],
-      "time_window": "13 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "12 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -151,108 +184,72 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
     },
     {
-      "id": "8093c301327b20e6",
+      "id": "7d19082812d9567a",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB selects 36 payment service providers to join digital euro pilot",
+      "title": "Monatsende",
       "assets": [
-        "Zinsen"
+        "Aktien"
+      ],
+      "time_window": "14 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 11,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 1,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
+    },
+    {
+      "id": "735b42b18acf745c",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Public Record ｜ What I want to say regarding Bitcoin Crypto Currency - X - ray Report",
+      "assets": [
+        "Krypto",
+        "USD/FX"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
+      "summary": "Relevante Meldung zu Krypto, USD/FX.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260714~8cd07d9d45.en.html"
+          "name": "blog.udn.com",
+          "url": "https://blog.udn.com:443/5cc9e9ea/191393935"
         }
       ],
-      "score": 9,
+      "score": 10,
       "score_detail": {
-        "asset_relevance": 1,
+        "asset_relevance": 2,
         "institutional_flows": 0,
-        "magnitude": 0,
+        "magnitude": 2,
         "time_window": 3,
-        "source_quality": 3,
+        "source_quality": 1,
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
-    },
-    {
-      "id": "d3a212288195a906",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB publishes indicative operational calendars for 2028",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630_1~ff55b9e99a.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
-    },
-    {
-      "id": "6f2ca5076a832847",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB publishes indicative operational calendars for 2027",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630~9f54a0a4fb.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-07-16T07:37:45.994Z",
-      "expires_at": "2026-07-23T07:37:45.994Z"
+      "created_at": "2026-07-16T15:19:49.485Z",
+      "expires_at": "2026-07-23T15:19:49.485Z"
     }
   ],
-  "noise_filtered": 30,
+  "noise_filtered": 80,
   "notifications": {
-    "telegram_sent": 0
+    "telegram_sent": 1
   }
 }
