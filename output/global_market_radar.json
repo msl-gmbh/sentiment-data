@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:19:49.485Z",
+  "generated_at": "2026-07-16T21:46:10.320Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -36,41 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
-    },
-    {
-      "id": "2c354e53b9ddf207",
-      "level": 2,
-      "type": "watch",
-      "label": "Watch",
-      "title": "MSCI India Index Rejig May Trigger $2 . 3 Billion Passive Inflows",
-      "assets": [
-        "Aktien"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "freepressjournal.in",
-          "url": "https://www.freepressjournal.in/business/msci-india-index-rejig-may-trigger-23-billion-passive-inflows"
-        }
-      ],
-      "score": 13,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 4,
-        "magnitude": 2,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z",
-      "_llm": true
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
       "id": "0f47da005867c792",
@@ -96,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -125,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
       "id": "200232b5554ffab3",
@@ -154,8 +121,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
       "id": "f0dc4bf8c808f259",
@@ -184,8 +151,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
       "id": "7d19082812d9567a",
@@ -211,45 +178,76 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     },
     {
-      "id": "735b42b18acf745c",
+      "id": "8093c301327b20e6",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Public Record ｜ What I want to say regarding Bitcoin Crypto Currency - X - ray Report",
+      "title": "ECB selects 36 payment service providers to join digital euro pilot",
       "assets": [
-        "Krypto",
-        "USD/FX"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, USD/FX.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "blog.udn.com",
-          "url": "https://blog.udn.com:443/5cc9e9ea/191393935"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260714~8cd07d9d45.en.html"
         }
       ],
-      "score": 10,
+      "score": 9,
       "score_detail": {
-        "asset_relevance": 2,
+        "asset_relevance": 1,
         "institutional_flows": 0,
-        "magnitude": 2,
+        "magnitude": 0,
         "time_window": 3,
-        "source_quality": 1,
+        "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-07-16T15:19:49.485Z",
-      "expires_at": "2026-07-23T15:19:49.485Z"
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
+    },
+    {
+      "id": "d3a212288195a906",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB publishes indicative operational calendars for 2028",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260630_1~ff55b9e99a.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-07-16T21:46:10.320Z",
+      "expires_at": "2026-07-23T21:46:10.320Z"
     }
   ],
-  "noise_filtered": 80,
+  "noise_filtered": 30,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
