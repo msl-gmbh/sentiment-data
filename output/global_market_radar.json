@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:06:32.259Z",
+  "generated_at": "2026-07-19T18:11:00.965Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z"
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     },
     {
       "id": "105be06fa89cfa4d",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z"
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     },
     {
       "id": "200232b5554ffab3",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z"
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     },
     {
       "id": "f0dc4bf8c808f259",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z"
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     },
     {
       "id": "851f4590f409be2a",
@@ -153,9 +153,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z",
-      "_llm": true
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     },
     {
       "id": "7d19082812d9567a",
@@ -181,12 +180,12 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-19T12:06:32.259Z",
-      "expires_at": "2026-07-26T12:06:32.259Z"
+      "created_at": "2026-07-19T18:11:00.965Z",
+      "expires_at": "2026-07-26T18:11:00.965Z"
     }
   ],
   "noise_filtered": 35,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
