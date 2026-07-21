@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-21T10:51:44.484Z",
+  "generated_at": "2026-07-21T16:59:52.222Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 18.77,
-    "vix3m": 20.54,
-    "hyoas": 2.73
+    "vix": 18.65,
+    "vix3m": 20.4,
+    "hyoas": 2.69
   },
   "alerts": [
     {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
+      "created_at": "2026-07-21T16:59:52.222Z",
+      "expires_at": "2026-07-28T16:59:52.222Z"
     },
     {
       "id": "200232b5554ffab3",
@@ -50,23 +50,23 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 13,
+      "score": 14,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
+      "created_at": "2026-07-21T16:59:52.222Z",
+      "expires_at": "2026-07-28T16:59:52.222Z"
     },
     {
       "id": "f0dc4bf8c808f259",
@@ -80,8 +80,8 @@
         "USD/FX",
         "Krypto"
       ],
-      "time_window": "8 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "7 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 7 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
+      "created_at": "2026-07-21T16:59:52.222Z",
+      "expires_at": "2026-07-28T16:59:52.222Z"
     },
     {
       "id": "851f4590f409be2a",
@@ -109,8 +109,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "13 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "12 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -124,41 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
-    },
-    {
-      "id": "756f3a0ce413f500",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Bitcoin ETFs Extend Inflows as Strategy Builds $3 . 23 Billion Cash Reserve",
-      "assets": [
-        "Aktien",
-        "Krypto"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-extend-inflows-strategy-202125819.html"
-        }
-      ],
-      "score": 12,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 2,
-        "magnitude": 2,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
+      "created_at": "2026-07-21T16:59:52.222Z",
+      "expires_at": "2026-07-28T16:59:52.222Z"
     },
     {
       "id": "7d19082812d9567a",
@@ -169,8 +136,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -184,78 +151,11 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
-    },
-    {
-      "id": "61eaaea5b4920e9c",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "What Happens When the Largest Bitcoin ETF Sells 100 , 000 BTC ? - SPDR Gold Shares ( ARCA : GLD ), iShares Bitco",
-      "assets": [
-        "Aktien",
-        "Krypto",
-        "Gold/Silber"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto, Gold/Silber.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "benzinga.com",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60555788/what-happens-when-the-largest-bitcoin-etf-sells-100000-btc"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 3,
-        "institutional_flows": 0,
-        "magnitude": 2,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
-    },
-    {
-      "id": "c5ef1e6e49f7af81",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Bitcoin tops $65 , 380 on sustained ETF inflows ; what should investors watch for",
-      "assets": [
-        "Aktien",
-        "Krypto"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "moneycontrol.com",
-          "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-tops-65-380-on-sustained-etf-inflows-what-should-investors-watch-for-13979084.html"
-        }
-      ],
-      "score": 8,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-07-21T10:51:44.484Z",
-      "expires_at": "2026-07-28T10:51:44.484Z"
+      "created_at": "2026-07-21T16:59:52.222Z",
+      "expires_at": "2026-07-28T16:59:52.222Z"
     }
   ],
-  "noise_filtered": 92,
+  "noise_filtered": 35,
   "notifications": {
     "telegram_sent": 0
   }
