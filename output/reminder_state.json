@@ -59,5 +59,11 @@
     "sent_at": "2026-07-20T15:30:08.256Z",
     "telegram": true,
     "email": false
+  },
+  "weekly_status:week:2026-W31": {
+    "sent": true,
+    "sent_at": "2026-07-27T16:35:36.748Z",
+    "telegram": true,
+    "email": false
   }
 }
