@@ -65,5 +65,11 @@
     "sent_at": "2026-07-27T16:35:36.748Z",
     "telegram": true,
     "email": false
+  },
+  "monthly_concentration:month:2026-08": {
+    "sent": true,
+    "sent_at": "2026-08-01T09:54:00.121Z",
+    "telegram": true,
+    "email": false
   }
 }
