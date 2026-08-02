@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T08:27:07.993Z",
+  "generated_at": "2026-08-02T10:42:18.106Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-02T08:27:07.993Z",
-      "expires_at": "2026-08-09T08:27:07.993Z"
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
     },
     {
       "id": "a068051a2590b750",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-02T08:27:07.993Z",
-      "expires_at": "2026-08-09T08:27:07.993Z"
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
     },
     {
       "id": "a4b20bcf9df48ccb",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-02T08:27:07.993Z",
-      "expires_at": "2026-08-09T08:27:07.993Z"
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
     },
     {
       "id": "20557d79a671a8b8",
@@ -124,11 +124,142 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-02T08:27:07.993Z",
-      "expires_at": "2026-08-09T08:27:07.993Z"
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
+    },
+    {
+      "id": "4da3adfe9a5859b7",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "State Street $5 . 7 Trillion Portfolio Chief Missed Bitcoin at $500 . But She Saw Gold $3 , 000 Run Coming Years Earlier",
+      "assets": [
+        "Krypto",
+        "Gold/Silber"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Gold/Silber.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/state-street-5-7-trillion-133041447.html"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
+    },
+    {
+      "id": "a9d6eb44fedf9077",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "US stocks are at record highs , but everyday Americans are struggling . Why ? And how can you profit from it ? ",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-record-highs-everyday-111500210.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
+    },
+    {
+      "id": "46c52cef573489ed",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin ETFs Post First Monthly Inflow Since April",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "cointelegraph.com",
+          "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
+    },
+    {
+      "id": "31bc32868320b032",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Weekly Wrap : Crypto Stays Rangebound Amid Market Volatility",
+      "assets": [
+        "Krypto",
+        "Vola/Stress"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Vola/Stress.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-crypto-stays-rangebound-213300326.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-02T10:42:18.106Z",
+      "expires_at": "2026-08-09T10:42:18.106Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 91,
   "notifications": {
     "telegram_sent": 0
   }
