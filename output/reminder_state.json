@@ -9,7 +9,7 @@
     "sent": true,
     "sent_at": "2026-06-29T17:48:52.759Z"
   },
-  "last_pending_reminder:putcall": "2026-07-20T15:30:08.256Z",
+  "last_pending_reminder:putcall": "2026-08-03T11:17:45.155Z",
   "monthly_concentration:month:2026-07": {
     "sent": true,
     "sent_at": "2026-07-01T16:43:06.737Z",
@@ -69,6 +69,12 @@
   "monthly_concentration:month:2026-08": {
     "sent": true,
     "sent_at": "2026-08-01T09:54:00.121Z",
+    "telegram": true,
+    "email": false
+  },
+  "weekly_status:week:2026-W32": {
+    "sent": true,
+    "sent_at": "2026-08-03T11:17:45.155Z",
     "telegram": true,
     "email": false
   }
