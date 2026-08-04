@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:40:45.156Z",
+  "generated_at": "2026-08-04T11:25:28.363Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-04T08:40:45.156Z",
-      "expires_at": "2026-08-11T08:40:45.156Z"
+      "created_at": "2026-08-04T11:25:28.363Z",
+      "expires_at": "2026-08-11T11:25:28.363Z"
     },
     {
       "id": "a4b20bcf9df48ccb",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-04T08:40:45.156Z",
-      "expires_at": "2026-08-11T08:40:45.156Z"
+      "created_at": "2026-08-04T11:25:28.363Z",
+      "expires_at": "2026-08-11T11:25:28.363Z"
     },
     {
       "id": "20557d79a671a8b8",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-04T08:40:45.156Z",
-      "expires_at": "2026-08-11T08:40:45.156Z"
+      "created_at": "2026-08-04T11:25:28.363Z",
+      "expires_at": "2026-08-11T11:25:28.363Z"
     },
     {
       "id": "5682d331ca906f80",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-04T08:40:45.156Z",
-      "expires_at": "2026-08-11T08:40:45.156Z"
+      "created_at": "2026-08-04T11:25:28.363Z",
+      "expires_at": "2026-08-11T11:25:28.363Z"
     }
   ],
   "noise_filtered": 35,
