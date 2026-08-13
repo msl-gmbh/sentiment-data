@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-13T16:00:26.908Z",
+  "generated_at": "2026-08-13T19:05:13.633Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": null,
-    "vix3m": null,
+    "vix": 14.55,
+    "vix3m": 18.53,
     "hyoas": 2.71
   },
   "alerts": [
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-13T16:00:26.908Z",
-      "expires_at": "2026-08-20T16:00:26.908Z"
+      "created_at": "2026-08-13T19:05:13.633Z",
+      "expires_at": "2026-08-20T19:05:13.633Z"
     },
     {
       "id": "3a52f130929a5c30",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-13T16:00:26.908Z",
-      "expires_at": "2026-08-20T16:00:26.908Z"
+      "created_at": "2026-08-13T19:05:13.633Z",
+      "expires_at": "2026-08-20T19:05:13.633Z"
     },
     {
       "id": "46bb9538bc20aa05",
@@ -92,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-13T16:00:26.908Z",
-      "expires_at": "2026-08-20T16:00:26.908Z"
+      "created_at": "2026-08-13T19:05:13.633Z",
+      "expires_at": "2026-08-20T19:05:13.633Z"
     }
   ],
   "noise_filtered": 35,
