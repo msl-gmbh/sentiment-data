@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T09:27:38.083Z",
+  "generated_at": "2026-08-15T12:40:51.611Z",
   "highest_level": 3,
-  "cash_deployment": "normal",
+  "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-15T09:27:38.083Z",
-      "expires_at": "2026-08-22T09:27:38.083Z"
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
     },
     {
       "id": "3a52f130929a5c30",
@@ -50,8 +50,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "9 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "8 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-15T09:27:38.083Z",
-      "expires_at": "2026-08-22T09:27:38.083Z"
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
     },
     {
       "id": "46bb9538bc20aa05",
@@ -77,26 +77,186 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 11,
+      "score": 12,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-15T09:27:38.083Z",
-      "expires_at": "2026-08-22T09:27:38.083Z"
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
+    },
+    {
+      "id": "4a641bed7c4ddfc9",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Cash remains most widely accepted payment method in euro area",
+      "assets": [
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
+    },
+    {
+      "id": "d1c6432c45dbce8f",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
+    },
+    {
+      "id": "9235a677094a4375",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
+    },
+    {
+      "id": "0818770221a2937e",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
+    },
+    {
+      "id": "1d29c2edd72ad3cc",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-08-15T12:40:51.611Z",
+      "expires_at": "2026-08-22T12:40:51.611Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 25,
   "notifications": {
     "telegram_sent": 0
   }
