@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:39:05.274Z",
+  "generated_at": "2026-08-21T21:26:31.364Z",
   "highest_level": 2,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-21T18:39:05.274Z",
-      "expires_at": "2026-08-28T18:39:05.274Z"
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
     },
     {
       "id": "9cffde3d486a99d5",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-21T18:39:05.274Z",
-      "expires_at": "2026-08-28T18:39:05.274Z"
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
     },
     {
       "id": "beaa766b19807934",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-21T18:39:05.274Z",
-      "expires_at": "2026-08-28T18:39:05.274Z"
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
     },
     {
       "id": "d6c51f105f7bcb85",
@@ -121,11 +121,143 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-21T18:39:05.274Z",
-      "expires_at": "2026-08-28T18:39:05.274Z"
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
+    },
+    {
+      "id": "9f40ddb3719f2b4d",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Stocks trade higher , lifted by crypto , commodities : AlphaCheck",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/article/stocks-trade-higher-lifted-by-crypto-commodities-alphacheck-135720189.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
+    },
+    {
+      "id": "b02cec23988c9bb9",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin Is A Trillion - Dollar Asset . But What Kind Of Trillion Is It ? ",
+      "assets": [
+        "Krypto",
+        "USD/FX"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, USD/FX.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "forbes.com",
+          "url": "https://www.forbes.com/sites/davidbirnbaum/2026/08/21/bitcoin-is-a-trillion-dollar-asset-but-what-kind-of-trillion-is-it/"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
+    },
+    {
+      "id": "69cd9ecee42b7f7a",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Looking to Diversify Your Portfolio ? Here 1 Cryptocurrency You Should Consider . ",
+      "assets": [
+        "Krypto",
+        "USD/FX"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, USD/FX.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/looking-diversify-portfolio-heres-1-153700685.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
+    },
+    {
+      "id": "55d6b8efa5d247f8",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Stock market today : Dow , S & P 500 , Nasdaq rise as bitcoin surges",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-080533702.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-21T21:26:31.364Z",
+      "expires_at": "2026-08-28T21:26:31.364Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 89,
   "notifications": {
     "telegram_sent": 0
   }
