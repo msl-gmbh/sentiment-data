@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:44:06.989Z",
+  "generated_at": "2026-08-23T09:29:59.946Z",
   "highest_level": 2,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
+      "created_at": "2026-08-23T09:29:59.946Z",
+      "expires_at": "2026-08-30T09:29:59.946Z"
     },
     {
       "id": "9cffde3d486a99d5",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
+      "created_at": "2026-08-23T09:29:59.946Z",
+      "expires_at": "2026-08-30T09:29:59.946Z"
     },
     {
       "id": "beaa766b19807934",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
+      "created_at": "2026-08-23T09:29:59.946Z",
+      "expires_at": "2026-08-30T09:29:59.946Z"
     },
     {
       "id": "d6c51f105f7bcb85",
@@ -121,112 +121,11 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
-    },
-    {
-      "id": "a610584ed3a874c7",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Asian Stocks Slide on Bond Stress : Will Safe Havens BTC and Gold Keep Rallying ? ",
-      "assets": [
-        "Aktien",
-        "Krypto",
-        "Gold/Silber",
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto, Gold/Silber, Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/asian-stocks-slide-bond-stress-034331017.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 3,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
-    },
-    {
-      "id": "7ea8704455384ad6",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Bitcoin surges 23 % in 1 week to trade nearly $78K as liquidity hopes , ETF inflows boost crypto markets",
-      "assets": [
-        "Aktien",
-        "Krypto"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Krypto.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-surges-23-in-1-week-to-trade-nearly-78k-as-liquidity-hopes-etf-inflows-boost-crypto-markets/articleshow/133420463.cms"
-        }
-      ],
-      "score": 8,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
-    },
-    {
-      "id": "c9246d2418e955c5",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
-      "assets": [
-        "Krypto",
-        "Gold/Silber"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, Gold/Silber.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-gold-went-slump-mvp-135908904.html"
-        }
-      ],
-      "score": 8,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-08-23T06:44:06.989Z",
-      "expires_at": "2026-08-30T06:44:06.989Z"
+      "created_at": "2026-08-23T09:29:59.946Z",
+      "expires_at": "2026-08-30T09:29:59.946Z"
     }
   ],
-  "noise_filtered": 92,
+  "noise_filtered": 35,
   "notifications": {
     "telegram_sent": 0
   }
