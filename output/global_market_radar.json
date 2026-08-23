@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T15:24:57.383Z",
+  "generated_at": "2026-08-23T18:32:21.733Z",
   "highest_level": 2,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T15:24:57.383Z",
-      "expires_at": "2026-08-30T15:24:57.383Z"
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
     },
     {
       "id": "9cffde3d486a99d5",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T15:24:57.383Z",
-      "expires_at": "2026-08-30T15:24:57.383Z"
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
     },
     {
       "id": "beaa766b19807934",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T15:24:57.383Z",
-      "expires_at": "2026-08-30T15:24:57.383Z"
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
     },
     {
       "id": "d6c51f105f7bcb85",
@@ -121,11 +121,109 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-23T15:24:57.383Z",
-      "expires_at": "2026-08-30T15:24:57.383Z"
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
+    },
+    {
+      "id": "cd5570140d963d99",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
+      "assets": [
+        "Krypto",
+        "Gold/Silber",
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Gold/Silber, Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/why-announcement-treasury-sparked-rally-130000017.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 3,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
+    },
+    {
+      "id": "02f4801cd4248663",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin Finally Wakes Up While U . S . Debt Hits $40 Trillion",
+      "assets": [
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-finally-wakes-while-u-123000444.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
+    },
+    {
+      "id": "60df7c9be7b87762",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Vlad Tenev Asked Regulators to Green - Light Tokenized Stocks . Robinhood Just Added About $12 Billion in Market Value . ",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vlad-tenev-asked-regulators-green-021101853.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-08-23T18:32:21.733Z",
+      "expires_at": "2026-08-30T18:32:21.733Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 92,
   "notifications": {
     "telegram_sent": 0
   }
