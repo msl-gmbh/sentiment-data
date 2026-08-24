@@ -28,7 +28,7 @@
     "telegram": true,
     "email": false
   },
-  "last_pending_reminder:naaim": "2026-08-23T08:23:36.736Z",
+  "last_pending_reminder:naaim": "2026-08-24T08:41:59.772Z",
   "last_pending_reminder:concentration_mag7": "2026-07-24T13:05:24.621Z",
   "weekly_status:week:2026-W28": {
     "sent": true,
@@ -99,6 +99,12 @@
   "naaim_health:week:2026-W34": {
     "sent": true,
     "sent_at": "2026-08-19T08:31:32.775Z",
+    "telegram": true,
+    "email": false
+  },
+  "weekly_status:week:2026-W35": {
+    "sent": true,
+    "sent_at": "2026-08-24T08:41:59.772Z",
     "telegram": true,
     "email": false
   }
