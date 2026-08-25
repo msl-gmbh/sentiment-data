@@ -1,10 +1,9 @@
 {
   "offset": 160756106,
-  "last_run": "2026-08-25T06:22:11.540Z",
+  "last_run": "2026-08-25T07:15:00.594Z",
   "commands_registered": true,
   "commands_version": 2,
   "run_intervals": [
-    23,
     17,
     75,
     79,
@@ -13,6 +12,7 @@
     42,
     29,
     32,
-    30
+    30,
+    53
   ]
 }
