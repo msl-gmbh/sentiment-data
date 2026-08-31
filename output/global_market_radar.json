@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-31T13:02:23.091Z",
+  "generated_at": "2026-08-31T20:42:25.702Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 14.51,
-    "vix3m": 17.56,
-    "hyoas": 2.63
+    "vix": 14.43,
+    "vix3m": 17.48,
+    "hyoas": 2.6
   },
   "alerts": [
     {
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T13:02:23.091Z",
-      "expires_at": "2026-09-07T13:02:23.091Z"
+      "created_at": "2026-08-31T20:42:25.702Z",
+      "expires_at": "2026-09-07T20:42:25.702Z"
     },
     {
       "id": "4667e5ee6336d1de",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T13:02:23.091Z",
-      "expires_at": "2026-09-07T13:02:23.091Z"
+      "created_at": "2026-08-31T20:42:25.702Z",
+      "expires_at": "2026-09-07T20:42:25.702Z"
     },
     {
       "id": "b57746accd39311a",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T13:02:23.091Z",
-      "expires_at": "2026-09-07T13:02:23.091Z"
+      "created_at": "2026-08-31T20:42:25.702Z",
+      "expires_at": "2026-09-07T20:42:25.702Z"
     },
     {
       "id": "a5c23e03443457ed",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T13:02:23.091Z",
-      "expires_at": "2026-09-07T13:02:23.091Z"
+      "created_at": "2026-08-31T20:42:25.702Z",
+      "expires_at": "2026-09-07T20:42:25.702Z"
     },
     {
       "id": "41b2a06e0d5ce2cf",
@@ -153,8 +153,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T13:02:23.091Z",
-      "expires_at": "2026-09-07T13:02:23.091Z"
+      "created_at": "2026-08-31T20:42:25.702Z",
+      "expires_at": "2026-09-07T20:42:25.702Z"
     }
   ],
   "noise_filtered": 35,
