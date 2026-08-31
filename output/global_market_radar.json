@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T04:27:16.742Z",
+  "generated_at": "2026-08-31T13:02:23.091Z",
   "highest_level": 3,
-  "cash_deployment": "gestaffelt",
+  "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
@@ -10,35 +10,6 @@
     "hyoas": 2.63
   },
   "alerts": [
-    {
-      "id": "9cffde3d486a99d5",
-      "level": 2,
-      "type": "watch",
-      "label": "Watch",
-      "title": "US PCE-Daten",
-      "assets": [
-        "Zinsen",
-        "Aktien",
-        "USD/FX"
-      ],
-      "time_window": "0 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 0 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 15,
-      "score_detail": {
-        "asset_relevance": 3,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 4
-      },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
-    },
     {
       "id": "beaa766b19807934",
       "level": 2,
@@ -50,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "4 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "3 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -65,35 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
-    },
-    {
-      "id": "d6c51f105f7bcb85",
-      "level": 2,
-      "type": "watch",
-      "label": "Watch",
-      "title": "Monatsende",
-      "assets": [
-        "Aktien"
-      ],
-      "time_window": "0 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 0 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 13,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 4
-      },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
+      "created_at": "2026-08-31T13:02:23.091Z",
+      "expires_at": "2026-09-07T13:02:23.091Z"
     },
     {
       "id": "4667e5ee6336d1de",
@@ -106,8 +50,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "8 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "7 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 7 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -121,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
+      "created_at": "2026-08-31T13:02:23.091Z",
+      "expires_at": "2026-09-07T13:02:23.091Z"
     },
     {
       "id": "b57746accd39311a",
@@ -135,8 +79,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -150,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
+      "created_at": "2026-08-31T13:02:23.091Z",
+      "expires_at": "2026-09-07T13:02:23.091Z"
     },
     {
       "id": "a5c23e03443457ed",
@@ -165,8 +109,8 @@
         "USD/FX",
         "Gold/Silber"
       ],
-      "time_window": "11 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "10 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -180,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
+      "created_at": "2026-08-31T13:02:23.091Z",
+      "expires_at": "2026-09-07T13:02:23.091Z"
     },
     {
       "id": "41b2a06e0d5ce2cf",
@@ -194,8 +138,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "14 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "13 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -209,43 +153,11 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
-    },
-    {
-      "id": "ef5f430ae52823d6",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB Consumer Expectations Survey results – July 2026",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-08-31T04:27:16.742Z",
-      "expires_at": "2026-09-07T04:27:16.742Z"
+      "created_at": "2026-08-31T13:02:23.091Z",
+      "expires_at": "2026-09-07T13:02:23.091Z"
     }
   ],
-  "noise_filtered": 28,
+  "noise_filtered": 35,
   "notifications": {
     "telegram_sent": 0
   }
