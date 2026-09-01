@@ -15,20 +15,22 @@
     "value": 0.66,
     "source_url": "ycharts.com",
     "value_date": "2026-07-27",
-    "fetched_date": "2026-08-31",
+    "fetched_date": "2026-09-01",
     "fetched_at": "2026-07-31T09:37:04.196Z",
     "method": "ai_failed",
     "needs_manual": true,
     "last_fail_reason": "kein Wert",
-    "last_fail_at": "2026-08-31T14:36:49.821Z"
+    "last_fail_at": "2026-09-01T12:13:52.107Z"
   },
   "concentration_mag7": {
     "value": 31.5,
     "source_url": "historyofmarket.com (live sum from slickcharts.com/sp500 data)",
     "value_date": "2026-07-24",
-    "fetched_date": "2026-08-01",
+    "fetched_date": "2026-09-01",
     "fetched_at": "2026-08-01T09:00:15.657Z",
-    "method": "ai",
-    "needs_manual": false
+    "method": "ai_failed",
+    "needs_manual": true,
+    "last_fail_reason": "kein Wert",
+    "last_fail_at": "2026-09-01T12:13:52.107Z"
   }
 }
