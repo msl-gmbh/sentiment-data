@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:34:26.628Z",
+  "generated_at": "2026-09-06T10:31:14.396Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     },
     {
       "id": "b57746accd39311a",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     },
     {
       "id": "a5c23e03443457ed",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     },
     {
       "id": "41b2a06e0d5ce2cf",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     },
     {
       "id": "42328d39c551e3b8",
@@ -154,8 +154,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     },
     {
       "id": "d138f1d140eacc30",
@@ -181,8 +181,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-06T03:34:26.628Z",
-      "expires_at": "2026-09-13T03:34:26.628Z"
+      "created_at": "2026-09-06T10:31:14.396Z",
+      "expires_at": "2026-09-13T10:31:14.396Z"
     }
   ],
   "noise_filtered": 35,
