@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T10:18:15.366Z",
+  "generated_at": "2026-09-12T15:13:05.879Z",
   "highest_level": 3,
-  "cash_deployment": "normal",
+  "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-12T10:18:15.366Z",
-      "expires_at": "2026-09-19T10:18:15.366Z"
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
     },
     {
       "id": "42328d39c551e3b8",
@@ -51,8 +51,8 @@
         "USD/FX",
         "Krypto"
       ],
-      "time_window": "4 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid (SEP/Dot-Plot)) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "3 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid (SEP/Dot-Plot)) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -66,8 +66,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-12T10:18:15.366Z",
-      "expires_at": "2026-09-19T10:18:15.366Z"
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
     },
     {
       "id": "a80876ca69f4c3b4",
@@ -78,8 +78,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (MSCI Quarterly Rebalancing) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (MSCI Quarterly Rebalancing) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -93,8 +93,35 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-12T10:18:15.366Z",
-      "expires_at": "2026-09-19T10:18:15.366Z"
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
+    },
+    {
+      "id": "d138f1d140eacc30",
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch",
+      "title": "Triple Witching (gr. Optionsverfall)",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Triple Witching (gr. Optionsverfall)) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 13,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 3,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
     },
     {
       "id": "6cbdc27570b0de69",
@@ -107,8 +134,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "9 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "8 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -122,38 +149,43 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-12T10:18:15.366Z",
-      "expires_at": "2026-09-19T10:18:15.366Z"
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
     },
     {
-      "id": "d138f1d140eacc30",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
-      "title": "Triple Witching (gr. Optionsverfall)",
+      "id": "ef5f430ae52823d6",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB Consumer Expectations Survey results – July 2026",
       "assets": [
-        "Aktien"
+        "Zinsen"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Triple Witching (gr. Optionsverfall)) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 12,
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html"
+        }
+      ],
+      "score": 9,
       "score_detail": {
         "asset_relevance": 1,
-        "institutional_flows": 3,
+        "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 3,
         "source_quality": 3,
         "market_confirmation": 0,
-        "cash_deployment": 4
+        "cash_deployment": 2
       },
-      "created_at": "2026-09-12T10:18:15.366Z",
-      "expires_at": "2026-09-19T10:18:15.366Z"
+      "created_at": "2026-09-12T15:13:05.879Z",
+      "expires_at": "2026-09-19T15:13:05.879Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 34,
   "notifications": {
     "telegram_sent": 0
   }
