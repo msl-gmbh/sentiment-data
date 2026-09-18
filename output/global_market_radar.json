@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:48:26.175Z",
+  "generated_at": "2026-09-18T10:46:37.001Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -34,8 +34,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "6cbdc27570b0de69",
@@ -63,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "cd924fa7478a41d9",
@@ -90,8 +90,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "0be6247a7bcb5cc9",
@@ -119,8 +119,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "d2873c0460627edd",
@@ -148,8 +148,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "445be6fe23d70f33",
@@ -175,8 +175,40 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
+    },
+    {
+      "id": "9cd7dc3c7d2f7292",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB Consumer Expectations Survey results – August 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     },
     {
       "id": "fcd04b1f3e0e191e",
@@ -207,11 +239,11 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-09-18T03:48:26.175Z",
-      "expires_at": "2026-09-25T03:48:26.175Z"
+      "created_at": "2026-09-18T10:46:37.001Z",
+      "expires_at": "2026-09-25T10:46:37.001Z"
     }
   ],
-  "noise_filtered": 34,
+  "noise_filtered": 33,
   "notifications": {
     "telegram_sent": 0
   }
