@@ -1,15 +1,42 @@
 {
-  "generated_at": "2026-09-24T11:19:59.910Z",
+  "generated_at": "2026-09-24T16:44:12.757Z",
   "highest_level": 3,
-  "cash_deployment": "normal",
+  "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
     "vix": 14.21,
     "vix3m": 17.61,
-    "hyoas": 2.68
+    "hyoas": 2.73
   },
   "alerts": [
+    {
+      "id": "cd924fa7478a41d9",
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch",
+      "title": "Quartalsende",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Quartalsende) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 15,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 4,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
+    },
     {
       "id": "0be6247a7bcb5cc9",
       "level": 2,
@@ -21,8 +48,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "4 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "3 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,35 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-24T11:19:59.910Z",
-      "expires_at": "2026-10-01T11:19:59.910Z"
-    },
-    {
-      "id": "cd924fa7478a41d9",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
-      "title": "Quartalsende",
-      "assets": [
-        "Aktien"
-      ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Quartalsende) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 14,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 4,
-        "magnitude": 0,
-        "time_window": 1,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 4
-      },
-      "created_at": "2026-09-24T11:19:59.910Z",
-      "expires_at": "2026-10-01T11:19:59.910Z"
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
     },
     {
       "id": "d2873c0460627edd",
@@ -77,8 +77,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "8 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "7 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 7 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -92,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-24T11:19:59.910Z",
-      "expires_at": "2026-10-01T11:19:59.910Z"
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
     },
     {
       "id": "41e27a8e5bf81613",
@@ -106,8 +106,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "11 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "10 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -121,8 +121,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-24T11:19:59.910Z",
-      "expires_at": "2026-10-01T11:19:59.910Z"
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
     },
     {
       "id": "445be6fe23d70f33",
@@ -133,26 +133,122 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 11,
+      "score": 12,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-24T11:19:59.910Z",
-      "expires_at": "2026-10-01T11:19:59.910Z"
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
+    },
+    {
+      "id": "580ffdc481efad97",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
+    },
+    {
+      "id": "ea519aafa60e4656",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Almost ten million people took part in ECB survey on new euro banknotes",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
+    },
+    {
+      "id": "76126d80eed2a8f1",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-09-24T16:44:12.757Z",
+      "expires_at": "2026-10-01T16:44:12.757Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 30,
   "notifications": {
     "telegram_sent": 0
   }
