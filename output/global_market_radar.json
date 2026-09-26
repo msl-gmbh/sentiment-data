@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T04:06:57.878Z",
+  "generated_at": "2026-09-26T11:00:19.094Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
       "id": "cd924fa7478a41d9",
@@ -63,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
       "id": "d2873c0460627edd",
@@ -92,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
       "id": "41e27a8e5bf81613",
@@ -121,8 +121,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
       "id": "445be6fe23d70f33",
@@ -148,33 +148,31 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
-      "id": "867453186665ab1a",
+      "id": "580ffdc481efad97",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Live updates : Bitcoin steadies near $84 , 000 as the bond selloff pauses",
+      "title": "ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
       "assets": [
-        "Krypto",
-        "Zinsen",
-        "Vola/Stress"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Krypto, Zinsen, Vola/Stress.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "coindesk.com",
-          "url": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html"
         }
       ],
-      "score": 11,
+      "score": 9,
       "score_detail": {
-        "asset_relevance": 3,
+        "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
@@ -182,78 +180,75 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     },
     {
-      "id": "93ba5ac451199c56",
+      "id": "ea519aafa60e4656",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Rupiah heads for biggest weekly fall since May on higher US yields , firm dollar",
+      "title": "Almost ten million people took part in ECB survey on new euro banknotes",
       "assets": [
-        "Zinsen",
-        "USD/FX"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen, USD/FX.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "aol.com",
-          "url": "https://www.aol.com/articles/rupiah-heads-biggest-weekly-fall-060057000.html"
-        }
-      ],
-      "score": 10,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 0,
-        "magnitude": 2,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
-    },
-    {
-      "id": "6b3a5dd500c00e6b",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Gold heads for weekly loss as stronger dollar , Fed rate outlook weighs",
-      "assets": [
-        "Gold/Silber",
-        "Zinsen",
-        "USD/FX"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Gold/Silber, Zinsen, USD/FX.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "thehindubusinessline.com",
-          "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-weekly-loss-as-stronger-dollar-fed-rate-outlook-weighs/article71506987.ece"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
         }
       ],
       "score": 9,
       "score_detail": {
-        "asset_relevance": 3,
+        "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
-        "source_quality": 1,
+        "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-09-26T04:06:57.878Z",
-      "expires_at": "2026-10-03T04:06:57.878Z"
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
+    },
+    {
+      "id": "76126d80eed2a8f1",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html"
+        }
+      ],
+      "score": 9,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-09-26T11:00:19.094Z",
+      "expires_at": "2026-10-03T11:00:19.094Z"
     }
   ],
-  "noise_filtered": 83,
+  "noise_filtered": 29,
   "notifications": {
     "telegram_sent": 0
   }
