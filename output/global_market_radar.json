@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-01T12:41:10.157Z",
+  "generated_at": "2026-10-01T20:11:16.774Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 16.04,
-    "vix3m": 18.09,
-    "hyoas": 3.08
+    "vix": 16.34,
+    "vix3m": 18.37,
+    "hyoas": 3.12
   },
   "alerts": [
     {
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     },
     {
       "id": "41e27a8e5bf81613",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     },
     {
       "id": "776fc73b56538426",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     },
     {
       "id": "cd51086685c96796",
@@ -124,8 +124,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     },
     {
       "id": "77ad762b6ea25094",
@@ -154,8 +154,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     },
     {
       "id": "85432ece7314461d",
@@ -181,12 +181,12 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-01T12:41:10.157Z",
-      "expires_at": "2026-10-08T12:41:10.157Z"
+      "created_at": "2026-10-01T20:11:16.774Z",
+      "expires_at": "2026-10-08T20:11:16.774Z"
     }
   ],
   "noise_filtered": 35,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
