@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T16:46:00.749Z",
+  "generated_at": "2026-10-04T21:00:43.043Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     },
     {
       "id": "776fc73b56538426",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     },
     {
       "id": "cd51086685c96796",
@@ -95,8 +95,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     },
     {
       "id": "77ad762b6ea25094",
@@ -125,8 +125,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     },
     {
       "id": "7c426ed91fc5a158",
@@ -154,8 +154,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     },
     {
       "id": "85432ece7314461d",
@@ -181,12 +181,12 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-04T16:46:00.749Z",
-      "expires_at": "2026-10-11T16:46:00.749Z"
+      "created_at": "2026-10-04T21:00:43.043Z",
+      "expires_at": "2026-10-11T21:00:43.043Z"
     }
   ],
   "noise_filtered": 35,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
