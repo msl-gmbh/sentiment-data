@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:46:36.314Z",
+  "generated_at": "2026-10-13T22:24:07.149Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -37,8 +37,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "7c426ed91fc5a158",
@@ -66,8 +66,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "85432ece7314461d",
@@ -93,8 +93,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "379e7a5990845d9d",
@@ -122,8 +122,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "7f4de3fd3a246b58",
@@ -151,8 +151,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "f8a0a7aef03061ba",
@@ -183,8 +183,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
       "id": "1d29c2edd72ad3cc",
@@ -215,44 +215,45 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     },
     {
-      "id": "b1e4ad4f7740f4f6",
+      "id": "c40eb173b1cbf581",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "assets": [
-        "Zinsen"
+        "Zinsen",
+        "Vola/Stress"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
+      "summary": "Relevante Meldung zu Zinsen, Vola/Stress.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html"
+          "name": "Quelle",
+          "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm]]>"
         }
       ],
-      "score": 9,
+      "score": 8,
       "score_detail": {
-        "asset_relevance": 1,
+        "asset_relevance": 2,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
-        "source_quality": 3,
+        "source_quality": 1,
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-13T16:46:36.314Z",
-      "expires_at": "2026-10-20T16:46:36.314Z"
+      "created_at": "2026-10-13T22:24:07.149Z",
+      "expires_at": "2026-10-20T22:24:07.149Z"
     }
   ],
-  "noise_filtered": 30,
+  "noise_filtered": 31,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
