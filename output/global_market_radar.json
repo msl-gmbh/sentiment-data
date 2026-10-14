@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-10-14T11:25:11.842Z",
+  "generated_at": "2026-10-14T16:46:26.201Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 15.21,
-    "vix3m": 17.93,
-    "hyoas": 3.11
+    "vix": 15.27,
+    "vix3m": 17.96,
+    "hyoas": 3.16
   },
   "alerts": [
-    {
-      "id": "77ad762b6ea25094",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
-      "title": "US CPI-Daten",
-      "assets": [
-        "Zinsen",
-        "Aktien",
-        "USD/FX",
-        "Gold/Silber"
-      ],
-      "time_window": "0 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 0 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 15,
-      "score_detail": {
-        "asset_relevance": 3,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 4
-      },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
-    },
     {
       "id": "7c426ed91fc5a158",
       "level": 2,
@@ -51,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "5 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "4 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -66,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "85432ece7314461d",
@@ -78,8 +48,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -93,8 +63,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "379e7a5990845d9d",
@@ -107,8 +77,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "12 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "11 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -122,8 +92,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "7f4de3fd3a246b58",
@@ -136,8 +106,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "14 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "13 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -151,8 +121,37 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
+    },
+    {
+      "id": "872ea35957e40ed1",
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch",
+      "title": "EZB Zinsentscheid",
+      "assets": [
+        "Zinsen",
+        "Aktien",
+        "USD/FX"
+      ],
+      "time_window": "14 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 13,
+      "score_detail": {
+        "asset_relevance": 3,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 1,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "f8a0a7aef03061ba",
@@ -183,8 +182,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "1d29c2edd72ad3cc",
@@ -215,8 +214,8 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     },
     {
       "id": "c40eb173b1cbf581",
@@ -248,12 +247,12 @@
         "market_confirmation": 0,
         "cash_deployment": 2
       },
-      "created_at": "2026-10-14T11:25:11.842Z",
-      "expires_at": "2026-10-21T11:25:11.842Z"
+      "created_at": "2026-10-14T16:46:26.201Z",
+      "expires_at": "2026-10-21T16:46:26.201Z"
     }
   ],
   "noise_filtered": 31,
   "notifications": {
-    "telegram_sent": 0
+    "telegram_sent": 1
   }
 }
