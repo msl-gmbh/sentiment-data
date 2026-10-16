@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T21:03:27.715Z",
+  "generated_at": "2026-10-16T03:41:37.877Z",
   "highest_level": 3,
-  "cash_deployment": "gestaffelt",
+  "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
@@ -36,35 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
-    },
-    {
-      "id": "85432ece7314461d",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
-      "title": "Optionsverfall (Opex)",
-      "assets": [
-        "Aktien"
-      ],
-      "time_window": "0 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 0 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [],
-      "score": 13,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 2,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 4
-      },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
+      "created_at": "2026-10-16T03:41:37.877Z",
+      "expires_at": "2026-10-23T03:41:37.877Z"
     },
     {
       "id": "379e7a5990845d9d",
@@ -92,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
+      "created_at": "2026-10-16T03:41:37.877Z",
+      "expires_at": "2026-10-23T03:41:37.877Z"
     },
     {
       "id": "7f4de3fd3a246b58",
@@ -121,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
+      "created_at": "2026-10-16T03:41:37.877Z",
+      "expires_at": "2026-10-23T03:41:37.877Z"
     },
     {
       "id": "872ea35957e40ed1",
@@ -150,108 +123,11 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
-    },
-    {
-      "id": "f8a0a7aef03061ba",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
-    },
-    {
-      "id": "1d29c2edd72ad3cc",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
-    },
-    {
-      "id": "c40eb173b1cbf581",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "assets": [
-        "Zinsen",
-        "Vola/Stress"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen, Vola/Stress.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "Quelle",
-          "url": "<![CDATA[https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm]]>"
-        }
-      ],
-      "score": 8,
-      "score_detail": {
-        "asset_relevance": 2,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 1,
-        "market_confirmation": 0,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-10-15T21:03:27.715Z",
-      "expires_at": "2026-10-22T21:03:27.715Z"
+      "created_at": "2026-10-16T03:41:37.877Z",
+      "expires_at": "2026-10-23T03:41:37.877Z"
     }
   ],
-  "noise_filtered": 31,
+  "noise_filtered": 35,
   "notifications": {
     "telegram_sent": 0
   }
