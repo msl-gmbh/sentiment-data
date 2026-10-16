@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T10:57:43.873Z",
+  "generated_at": "2026-10-16T16:17:14.203Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": 16.87,
-    "vix3m": 18.79,
-    "hyoas": 3.25
+    "vix": 16.46,
+    "vix3m": 18.49,
+    "hyoas": 3.23
   },
   "alerts": [
     {
@@ -21,23 +21,23 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "3 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 14,
+      "score": 15,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-16T10:57:43.873Z",
-      "expires_at": "2026-10-23T10:57:43.873Z"
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
     },
     {
       "id": "379e7a5990845d9d",
@@ -50,8 +50,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-16T10:57:43.873Z",
-      "expires_at": "2026-10-23T10:57:43.873Z"
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
     },
     {
       "id": "7f4de3fd3a246b58",
@@ -79,8 +79,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "12 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "11 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-16T10:57:43.873Z",
-      "expires_at": "2026-10-23T10:57:43.873Z"
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
     },
     {
       "id": "872ea35957e40ed1",
@@ -108,8 +108,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "13 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "12 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (EZB Zinsentscheid) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -123,11 +123,137 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-16T10:57:43.873Z",
-      "expires_at": "2026-10-23T10:57:43.873Z"
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
+    },
+    {
+      "id": "0fd195314ad9d45f",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Monatsende",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "14 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 11,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 1,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
+    },
+    {
+      "id": "5e01e6f685d6473d",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "MSCI makes it official , and bitcoin ( BTC ) treasury firms Strategy , Metaplanet are on notice",
+      "assets": [
+        "Krypto",
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "coindesk.com",
+          "url": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
+    },
+    {
+      "id": "2ca25ade4668a1ac",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Ethereum Led Nearly $1 Billion in Crypto Liquidations . Its Traders Never Cut Back Before the Drop . ",
+      "assets": [
+        "Krypto",
+        "Vola/Stress"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Krypto, Vola/Stress.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "aol.com",
+          "url": "https://www.aol.com/articles/ethereum-led-nearly-1-billion-130049000.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
+    },
+    {
+      "id": "b84808a2ab32b697",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin buyers snap up a brief drop below $80 , 000 as Asian stocks rebound",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "coindesk.com",
+          "url": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-10-16T16:17:14.203Z",
+      "expires_at": "2026-10-23T16:17:14.203Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 92,
   "notifications": {
     "telegram_sent": 0
   }
