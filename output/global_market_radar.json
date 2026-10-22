@@ -1,15 +1,44 @@
 {
-  "generated_at": "2026-10-22T03:48:54.290Z",
+  "generated_at": "2026-10-22T11:22:30.662Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
   "market_confirmation": 0,
   "hard_data": {
-    "vix": null,
-    "vix3m": null,
-    "hyoas": null
+    "vix": 17.31,
+    "vix3m": 18.99,
+    "hyoas": 3.33
   },
   "alerts": [
+    {
+      "id": "379e7a5990845d9d",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "US PCE-Daten",
+      "assets": [
+        "Zinsen",
+        "Aktien",
+        "USD/FX"
+      ],
+      "time_window": "4 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 14,
+      "score_detail": {
+        "asset_relevance": 3,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-10-22T11:22:30.662Z",
+      "expires_at": "2026-10-29T11:22:30.662Z"
+    },
     {
       "id": "7f4de3fd3a246b58",
       "level": 3,
@@ -36,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-22T03:48:54.290Z",
-      "expires_at": "2026-10-29T03:48:54.290Z"
+      "created_at": "2026-10-22T11:22:30.662Z",
+      "expires_at": "2026-10-29T11:22:30.662Z"
     },
     {
       "id": "872ea35957e40ed1",
@@ -65,8 +94,37 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-22T03:48:54.290Z",
-      "expires_at": "2026-10-29T03:48:54.290Z"
+      "created_at": "2026-10-22T11:22:30.662Z",
+      "expires_at": "2026-10-29T11:22:30.662Z"
+    },
+    {
+      "id": "07935e1c2338204c",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
+      "title": "US PCE-Daten",
+      "assets": [
+        "Zinsen",
+        "Aktien",
+        "USD/FX"
+      ],
+      "time_window": "11 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 11 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 13,
+      "score_detail": {
+        "asset_relevance": 3,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 1,
+        "source_quality": 3,
+        "market_confirmation": 0,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-10-22T11:22:30.662Z",
+      "expires_at": "2026-10-29T11:22:30.662Z"
     },
     {
       "id": "0fd195314ad9d45f",
@@ -92,8 +150,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-22T03:48:54.290Z",
-      "expires_at": "2026-10-29T03:48:54.290Z"
+      "created_at": "2026-10-22T11:22:30.662Z",
+      "expires_at": "2026-10-29T11:22:30.662Z"
     }
   ],
   "noise_filtered": 35,
