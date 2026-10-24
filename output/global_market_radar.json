@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:34:56.717Z",
+  "generated_at": "2026-10-24T20:25:40.010Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     },
     {
       "id": "7f4de3fd3a246b58",
@@ -65,8 +65,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     },
     {
       "id": "872ea35957e40ed1",
@@ -94,8 +94,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     },
     {
       "id": "07935e1c2338204c",
@@ -123,8 +123,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     },
     {
       "id": "b69b367fb83f1244",
@@ -152,8 +152,8 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     },
     {
       "id": "0fd195314ad9d45f",
@@ -179,11 +179,44 @@
         "market_confirmation": 0,
         "cash_deployment": 4
       },
-      "created_at": "2026-10-24T15:34:56.717Z",
-      "expires_at": "2026-10-31T15:34:56.717Z"
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
+    },
+    {
+      "id": "d09a3ac139bdbc25",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Bitcoin ETFs Just Had Their Biggest Outflow Day Since June . Is the Selling Over ? ",
+      "assets": [
+        "Aktien",
+        "Krypto"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien, Krypto.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "aol.com",
+          "url": "https://www.aol.com/articles/bitcoin-etfs-just-had-biggest-153742000.html"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 2,
+        "institutional_flows": 2,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 0,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-10-24T20:25:40.010Z",
+      "expires_at": "2026-10-31T20:25:40.010Z"
     }
   ],
-  "noise_filtered": 35,
+  "noise_filtered": 94,
   "notifications": {
     "telegram_sent": 0
   }
