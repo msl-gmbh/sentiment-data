@@ -26,11 +26,11 @@
     "value": 31.5,
     "source_url": "historyofmarket.com (live sum from slickcharts.com/sp500 data)",
     "value_date": "2026-07-24",
-    "fetched_date": "2026-10-01",
+    "fetched_date": "2026-11-01",
     "fetched_at": "2026-08-01T09:00:15.657Z",
     "method": "ai_failed",
     "needs_manual": true,
     "last_fail_reason": "kein Wert",
-    "last_fail_at": "2026-10-01T14:01:01.265Z"
+    "last_fail_at": "2026-11-01T13:55:03.398Z"
   }
 }
