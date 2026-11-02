@@ -28,7 +28,7 @@
     "telegram": true,
     "email": false
   },
-  "last_pending_reminder:naaim": "2026-11-01T14:40:59.334Z",
+  "last_pending_reminder:naaim": "2026-11-02T17:44:10.847Z",
   "last_pending_reminder:concentration_mag7": "2026-10-29T14:54:14.521Z",
   "weekly_status:week:2026-W28": {
     "sent": true,
@@ -243,6 +243,12 @@
   "monthly_concentration:month:2026-11": {
     "sent": true,
     "sent_at": "2026-11-01T14:40:59.334Z",
+    "telegram": true,
+    "email": false
+  },
+  "weekly_status:week:2026-W45": {
+    "sent": true,
+    "sent_at": "2026-11-02T17:44:10.847Z",
     "telegram": true,
     "email": false
   }
