@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T13:49:16.376Z",
+  "generated_at": "2026-11-03T20:49:06.021Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
-  "market_confirmation": 0,
+  "market_confirmation": 0.5,
   "hard_data": {
-    "vix": 19.42,
-    "vix3m": 20.78,
-    "hyoas": 3.44
+    "vix": 21.15,
+    "vix3m": 21.6,
+    "hyoas": 3.43
   },
   "alerts": [
     {
@@ -26,18 +26,18 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 15,
+      "score": 15.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     },
     {
       "id": "2ac05285cb9eec6e",
@@ -55,18 +55,18 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 14,
+      "score": 14.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     },
     {
       "id": "d2ce8a88a9c89475",
@@ -85,18 +85,18 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 13,
+      "score": 13.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     },
     {
       "id": "d117db051a6dfde8",
@@ -115,18 +115,18 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 13,
+      "score": 13.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     },
     {
       "id": "b48b58926dc315e5",
@@ -144,18 +144,18 @@
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 13,
+      "score": 13.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     },
     {
       "id": "77bcc8a1e9dac8ba",
@@ -177,21 +177,85 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
         }
       ],
-      "score": 8,
+      "score": 9,
       "score_detail": {
         "asset_relevance": 2,
         "institutional_flows": 0,
         "magnitude": 0,
         "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 0,
+        "market_confirmation": 0.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-03T13:49:16.376Z",
-      "expires_at": "2026-11-10T13:49:16.376Z"
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
+    },
+    {
+      "id": "1d29c2edd72ad3cc",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0.5,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
+    },
+    {
+      "id": "e69d1ec1c8234435",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html"
+        }
+      ],
+      "score": 8,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 3,
+        "source_quality": 3,
+        "market_confirmation": 0.5,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-11-03T20:49:06.021Z",
+      "expires_at": "2026-11-10T20:49:06.021Z"
     }
   ],
-  "noise_filtered": 34,
+  "noise_filtered": 91,
   "notifications": {
     "telegram_sent": 0
   }
