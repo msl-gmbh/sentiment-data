@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:01:37.651Z",
+  "generated_at": "2026-11-07T00:40:35.734Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
       "id": "d2ce8a88a9c89475",
@@ -66,8 +66,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
       "id": "d117db051a6dfde8",
@@ -96,8 +96,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
       "id": "b48b58926dc315e5",
@@ -125,8 +125,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
       "id": "36dc8cfd93cd78d3",
@@ -152,8 +152,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
       "id": "77bcc8a1e9dac8ba",
@@ -185,15 +185,47 @@
         "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     },
     {
-      "id": "3228c80f80e14a7e",
+      "id": "b4c4ccaabb1f6d61",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "title": "Dow Jones Top Markets Headlines at 9 PM ET : Wall Street Gets $2 . 5 Trillion AI Reality Check With Historic Rout of Tech Stocks | A ... ",
+      "assets": [
+        "Aktien"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Aktien.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "morningstar.com",
+          "url": "https://www.morningstar.com/news/dow-jones/2026110526443/dow-jones-top-markets-headlines-at-9-pm-et-wall-street-gets-25-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-a"
+        }
+      ],
+      "score": 10,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 2,
+        "time_window": 3,
+        "source_quality": 1,
+        "market_confirmation": 2.5,
+        "cash_deployment": 0
+      },
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
+    },
+    {
+      "id": "77c7c0558db6f194",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Federal budget outlines how Canadians could profit from new national sovereign fund | Daily Hive",
       "assets": [
         "Zinsen"
       ],
@@ -203,58 +235,26 @@
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
+          "name": "dailyhive.com",
+          "url": "https://dailyhive.com/vancouver/canada-strong-fund-notes-sovereign-federal-budget-2026"
         }
       ],
       "score": 10,
       "score_detail": {
         "asset_relevance": 1,
-        "institutional_flows": 0,
+        "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 3,
-        "source_quality": 3,
+        "source_quality": 1,
         "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
-    },
-    {
-      "id": "8fd14d2b97fbf13f",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
-        }
-      ],
-      "score": 10,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 3,
-        "source_quality": 3,
-        "market_confirmation": 2.5,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-11-06T19:01:37.651Z",
-      "expires_at": "2026-11-13T19:01:37.651Z"
+      "created_at": "2026-11-07T00:40:35.734Z",
+      "expires_at": "2026-11-14T00:40:35.734Z"
     }
   ],
-  "noise_filtered": 12,
+  "noise_filtered": 56,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
