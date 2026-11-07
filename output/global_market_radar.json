@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T09:43:43.587Z",
+  "generated_at": "2026-11-07T17:34:52.858Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "2 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "1 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 1 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -36,8 +36,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
       "id": "d2ce8a88a9c89475",
@@ -51,23 +51,23 @@
         "USD/FX",
         "Gold/Silber"
       ],
-      "time_window": "3 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 16.5,
+      "score": 17.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
       "id": "d117db051a6dfde8",
@@ -81,8 +81,8 @@
         "USD/FX",
         "Gold/Silber"
       ],
-      "time_window": "5 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "4 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US CPI-Daten) in 4 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -96,8 +96,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
       "id": "b48b58926dc315e5",
@@ -110,8 +110,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "9 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "8 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 8 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -125,8 +125,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
       "id": "36dc8cfd93cd78d3",
@@ -137,8 +137,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "13 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "12 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Optionsverfall (Opex)) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -152,8 +152,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
       "id": "77bcc8a1e9dac8ba",
@@ -185,75 +185,75 @@
         "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
-      "id": "b834d1aae21f682f",
+      "id": "3228c80f80e14a7e",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Warren Buffett Successor , Greg Abel , Has 71 % of Berkshire Hathaway $362 Billion Portfolio Invested in 7 Standout Stocks",
+      "title": "ECB publishes consolidated banking data for end-June 2026",
       "assets": [
-        "Aktien"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "aol.com",
-          "url": "https://www.aol.com/articles/warren-buffetts-successor-greg-abel-102602000.html"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
         }
       ],
       "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
-        "magnitude": 2,
+        "magnitude": 0,
         "time_window": 3,
-        "source_quality": 1,
+        "source_quality": 3,
         "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     },
     {
-      "id": "6e9a0c232bbd3cba",
+      "id": "8fd14d2b97fbf13f",
       "level": 1,
       "type": "context",
       "label": "Kontext",
-      "title": "Warren Buffett Successor , Greg Abel , Has 71 % of Berkshire Hathaway $362 Billion Portfolio Invested in 7 Standout Stocks",
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
       "assets": [
-        "Aktien"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "fool.com",
-          "url": "https://www.fool.com/investing/2026/11/06/warren-buffett-successor-greg-abel-71-berkshire-hathaway-362-billion-portfolio-invested-7-standout-stocks/?source=iedfolrf0000001"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
         }
       ],
       "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
-        "magnitude": 2,
+        "magnitude": 0,
         "time_window": 3,
-        "source_quality": 1,
+        "source_quality": 3,
         "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-07T09:43:43.587Z",
-      "expires_at": "2026-11-14T09:43:43.587Z"
+      "created_at": "2026-11-07T17:34:52.858Z",
+      "expires_at": "2026-11-14T17:34:52.858Z"
     }
   ],
-  "noise_filtered": 58,
+  "noise_filtered": 12,
   "notifications": {
     "telegram_sent": 0
   }
