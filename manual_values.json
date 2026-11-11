@@ -4,23 +4,23 @@
     "value": 84.02,
     "source_url": "ycharts.com",
     "value_date": "2026-07-22",
-    "fetched_date": "2026-11-04",
+    "fetched_date": "2026-11-11",
     "fetched_at": "2026-07-29T09:32:24.610Z",
     "method": "ai_failed",
     "needs_manual": true,
     "last_fail_reason": "kein Wert",
-    "last_fail_at": "2026-11-04T14:57:28.315Z"
+    "last_fail_at": "2026-11-11T14:48:50.906Z"
   },
   "putcall": {
     "value": 0.66,
     "source_url": "ycharts.com",
     "value_date": "2026-07-27",
-    "fetched_date": "2026-11-10",
+    "fetched_date": "2026-11-11",
     "fetched_at": "2026-07-31T09:37:04.196Z",
     "method": "ai_failed",
     "needs_manual": true,
     "last_fail_reason": "kein Wert",
-    "last_fail_at": "2026-11-10T15:18:14.884Z"
+    "last_fail_at": "2026-11-11T14:48:50.906Z"
   },
   "concentration_mag7": {
     "value": 31.5,
