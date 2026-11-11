@@ -257,5 +257,11 @@
     "sent_at": "2026-11-04T15:55:25.926Z",
     "telegram": true,
     "email": false
+  },
+  "naaim_health:week:2026-W46": {
+    "sent": true,
+    "sent_at": "2026-11-11T15:47:51.415Z",
+    "telegram": true,
+    "email": false
   }
 }
