@@ -1,9 +1,4 @@
 {
-  "b69b367fb83f1244": {
-    "max_level": 2,
-    "notified_level": 2,
-    "expires_at": "2026-11-13T10:31:14.280Z"
-  },
   "2ac05285cb9eec6e": {
     "max_level": 3,
     "notified_level": 3,
@@ -47,7 +42,7 @@
   "b48b58926dc315e5": {
     "max_level": 2,
     "notified_level": 2,
-    "expires_at": "2026-11-20T05:40:44.712Z"
+    "expires_at": "2026-11-20T14:09:29.501Z"
   },
   "8fd14d2b97fbf13f": {
     "max_level": 1,
@@ -57,7 +52,7 @@
   "36dc8cfd93cd78d3": {
     "max_level": 3,
     "notified_level": 3,
-    "expires_at": "2026-11-20T05:40:44.712Z"
+    "expires_at": "2026-11-20T14:09:29.501Z"
   },
   "3228c80f80e14a7e": {
     "max_level": 1,
@@ -277,7 +272,7 @@
   "8211366f7ed394d7": {
     "max_level": 2,
     "notified_level": 2,
-    "expires_at": "2026-11-20T05:40:44.712Z"
+    "expires_at": "2026-11-20T14:09:29.501Z"
   },
   "3f244a51a2952c57": {
     "max_level": 1,
