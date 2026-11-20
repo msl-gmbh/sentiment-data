@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T11:01:23.283Z",
+  "generated_at": "2026-11-20T19:44:42.537Z",
   "highest_level": 3,
   "cash_deployment": "normal",
   "existing_positions": "keine_aenderung",
-  "market_confirmation": 2,
+  "market_confirmation": 2.5,
   "hard_data": {
-    "vix": 24.56,
-    "vix3m": 24.29,
-    "hyoas": 3.47
+    "vix": 28.44,
+    "vix3m": 27.03,
+    "hyoas": 3.52
   },
   "alerts": [
     {
@@ -21,23 +21,23 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "3 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 3 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "2 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 2 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 16,
+      "score": 17.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "3ee942aa1820bb24",
@@ -50,23 +50,23 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 15,
+      "score": 15.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "c973d06e4510b45b",
@@ -79,23 +79,23 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "14 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "13 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 15,
+      "score": 15.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "023bbc546c6829d0",
@@ -106,23 +106,23 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 13,
+      "score": 13.5,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "79f769a9139a88c9",
@@ -143,18 +143,18 @@
           "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf"
         }
       ],
-      "score": 8,
+      "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "1a0abe1a61117f8f",
@@ -175,18 +175,18 @@
           "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
         }
       ],
-      "score": 8,
+      "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "3228c80f80e14a7e",
@@ -207,18 +207,18 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
         }
       ],
-      "score": 8,
+      "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     },
     {
       "id": "8fd14d2b97fbf13f",
@@ -239,21 +239,21 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
         }
       ],
-      "score": 8,
+      "score": 10,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 2,
+        "time_window": 3,
         "source_quality": 3,
-        "market_confirmation": 2,
+        "market_confirmation": 2.5,
         "cash_deployment": 0
       },
-      "created_at": "2026-11-20T11:01:23.283Z",
-      "expires_at": "2026-11-27T11:01:23.283Z"
+      "created_at": "2026-11-20T19:44:42.537Z",
+      "expires_at": "2026-11-27T19:44:42.537Z"
     }
   ],
-  "noise_filtered": 31,
+  "noise_filtered": 13,
   "notifications": {
     "telegram_sent": 0
   }
