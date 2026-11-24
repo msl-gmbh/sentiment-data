@@ -27,7 +27,7 @@
   "3228c80f80e14a7e": {
     "max_level": 1,
     "notified_level": -1,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "8211366f7ed394d7": {
     "max_level": 3,
@@ -37,17 +37,17 @@
   "1a0abe1a61117f8f": {
     "max_level": 1,
     "notified_level": -1,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "3ee942aa1820bb24": {
     "max_level": 3,
     "notified_level": 3,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "023bbc546c6829d0": {
     "max_level": 2,
     "notified_level": 2,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "062a7f3d3ee713d0": {
     "max_level": 1,
@@ -132,7 +132,7 @@
   "79f769a9139a88c9": {
     "max_level": 1,
     "notified_level": -1,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "3419f12888bf76c1": {
     "max_level": 1,
@@ -142,7 +142,7 @@
   "c973d06e4510b45b": {
     "max_level": 3,
     "notified_level": 3,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "59cbb8910b28a3c4": {
     "max_level": 1,
@@ -162,11 +162,31 @@
   "678066d761140a03": {
     "max_level": 3,
     "notified_level": 3,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
   },
   "ca3f0207096d1532": {
     "max_level": 1,
     "notified_level": -1,
-    "expires_at": "2026-11-30T23:45:32.314Z"
+    "expires_at": "2026-12-01T08:57:58.307Z"
+  },
+  "e76b14d217a5628e": {
+    "max_level": 1,
+    "notified_level": -1,
+    "expires_at": "2026-12-01T08:57:58.307Z"
+  },
+  "6b24219ed9d0a2ce": {
+    "max_level": 1,
+    "notified_level": -1,
+    "expires_at": "2026-12-01T08:57:58.307Z"
+  },
+  "a730d84bdd496dd3": {
+    "max_level": 1,
+    "notified_level": -1,
+    "expires_at": "2026-12-01T08:57:58.307Z"
+  },
+  "89775925c69a5c2e": {
+    "max_level": 1,
+    "notified_level": -1,
+    "expires_at": "2026-12-01T08:57:58.307Z"
   }
 }
