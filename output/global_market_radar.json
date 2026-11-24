@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-24T08:57:58.307Z",
+  "generated_at": "2026-11-24T20:04:54.245Z",
   "highest_level": 3,
-  "cash_deployment": "normal",
+  "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
-  "market_confirmation": 3.5,
+  "market_confirmation": 2.5,
   "hard_data": {
-    "vix": 35.89,
-    "vix3m": 30.94,
-    "hyoas": 3.76
+    "vix": 26.62,
+    "vix3m": 25.5,
+    "hyoas": 3.63
   },
   "alerts": [
     {
@@ -21,8 +21,8 @@
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -31,71 +31,101 @@
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 3.5,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "c973d06e4510b45b",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
       "title": "US Arbeitsmarktdaten (NFP)",
       "assets": [
         "Zinsen",
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "10 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 10 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "9 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US Arbeitsmarktdaten (NFP)) in 9 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 16.5,
+      "score": 15.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 3.5,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "678066d761140a03",
-      "level": 3,
-      "type": "cash_deployment_watch",
-      "label": "Cash-Deployment-Watch",
+      "level": 2,
+      "type": "watch",
+      "label": "Watch",
       "title": "US PCE-Daten",
       "assets": [
         "Zinsen",
         "Aktien",
         "USD/FX"
       ],
-      "time_window": "13 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 13 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "12 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (US PCE-Daten) in 12 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
-      "score": 16.5,
+      "score": 15.5,
       "score_detail": {
         "asset_relevance": 3,
         "institutional_flows": 2,
         "magnitude": 0,
         "time_window": 1,
         "source_quality": 3,
-        "market_confirmation": 3.5,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
+    },
+    {
+      "id": "aee20f8ee5e8b68c",
+      "level": 3,
+      "type": "cash_deployment_watch",
+      "label": "Cash-Deployment-Watch",
+      "title": "Fed FOMC Zinsentscheid (SEP/Dot-Plot)",
+      "assets": [
+        "Zinsen",
+        "Aktien",
+        "USD/FX",
+        "Krypto"
+      ],
+      "time_window": "14 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Fed FOMC Zinsentscheid (SEP/Dot-Plot)) in 14 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [],
+      "score": 15.5,
+      "score_detail": {
+        "asset_relevance": 3,
+        "institutional_flows": 2,
+        "magnitude": 0,
+        "time_window": 1,
+        "source_quality": 3,
+        "market_confirmation": 2.5,
+        "cash_deployment": 4
+      },
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "023bbc546c6829d0",
@@ -106,8 +136,8 @@
       "assets": [
         "Aktien"
       ],
-      "time_window": "6 Tage",
-      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 6 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
+      "time_window": "5 Tage",
+      "summary": "Technisches Markt-/Liquiditaetsereignis (Monatsende) in 5 Tagen. Kann kurzfristig Volatilitaet erzeugen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [],
@@ -116,47 +146,13 @@
         "asset_relevance": 1,
         "institutional_flows": 2,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 3.5,
+        "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
-    },
-    {
-      "id": "e76b14d217a5628e",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "  Main problem is not money ; it how to ...: CA explains how to invest Rs 5 lakh in stocks , gold , FDs and bonds to build wealth and minimise risk",
-      "assets": [
-        "Aktien",
-        "Gold/Silber",
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Gold/Silber, Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "timesofindia.indiatimes.com",
-          "url": "https://timesofindia.indiatimes.com/life-style/people/main-problem-is-not-money-its-how-to-ca-explains-how-to-invest-rs-5-lakh-in-stocks-gold-fds-and-bonds-to-build-wealth-and-minimise-risk/articleshow/136097130.cms"
-        }
-      ],
-      "score": 9,
-      "score_detail": {
-        "asset_relevance": 3,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 1,
-        "source_quality": 1,
-        "market_confirmation": 3.5,
-        "cash_deployment": 0
-      },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "ca3f0207096d1532",
@@ -177,18 +173,18 @@
           "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
         }
       ],
-      "score": 9,
+      "score": 11,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 3.5,
-        "cash_deployment": 0
+        "market_confirmation": 2.5,
+        "cash_deployment": 2
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "79f769a9139a88c9",
@@ -209,18 +205,18 @@
           "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf"
         }
       ],
-      "score": 9,
+      "score": 11,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 3.5,
-        "cash_deployment": 0
+        "market_confirmation": 2.5,
+        "cash_deployment": 2
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     },
     {
       "id": "1a0abe1a61117f8f",
@@ -241,22 +237,22 @@
           "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
         }
       ],
-      "score": 9,
+      "score": 11,
       "score_detail": {
         "asset_relevance": 1,
         "institutional_flows": 0,
         "magnitude": 0,
-        "time_window": 1,
+        "time_window": 2,
         "source_quality": 3,
-        "market_confirmation": 3.5,
-        "cash_deployment": 0
+        "market_confirmation": 2.5,
+        "cash_deployment": 2
       },
-      "created_at": "2026-11-24T08:57:58.307Z",
-      "expires_at": "2026-12-01T08:57:58.307Z"
+      "created_at": "2026-11-24T20:04:54.245Z",
+      "expires_at": "2026-12-01T20:04:54.245Z"
     }
   ],
-  "noise_filtered": 87,
+  "noise_filtered": 14,
   "notifications": {
-    "telegram_sent": 0
+    "telegram_sent": 1
   }
 }
