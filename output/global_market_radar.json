@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:55:45.987Z",
+  "generated_at": "2026-11-26T01:40:06.548Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "c973d06e4510b45b",
@@ -65,8 +65,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "678066d761140a03",
@@ -94,8 +94,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "aee20f8ee5e8b68c",
@@ -124,8 +124,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "9e10a192432d0bc5",
@@ -154,8 +154,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "023bbc546c6829d0",
@@ -181,8 +181,40 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
+    },
+    {
+      "id": "ad811d3770043098",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+      "assets": [
+        "Zinsen"
+      ],
+      "time_window": "1-5 Handelstage",
+      "summary": "Relevante Meldung zu Zinsen.",
+      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
+      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
+      "sources": [
+        {
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html"
+        }
+      ],
+      "score": 11,
+      "score_detail": {
+        "asset_relevance": 1,
+        "institutional_flows": 0,
+        "magnitude": 0,
+        "time_window": 2,
+        "source_quality": 3,
+        "market_confirmation": 2.5,
+        "cash_deployment": 2
+      },
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     },
     {
       "id": "ca3f0207096d1532",
@@ -213,44 +245,12 @@
         "market_confirmation": 2.5,
         "cash_deployment": 2
       },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
-    },
-    {
-      "id": "79f769a9139a88c9",
-      "level": 1,
-      "type": "context",
-      "label": "Kontext",
-      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
-      "assets": [
-        "Zinsen"
-      ],
-      "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Zinsen.",
-      "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
-      "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
-      "sources": [
-        {
-          "name": "ecb.europa.eu",
-          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf"
-        }
-      ],
-      "score": 11,
-      "score_detail": {
-        "asset_relevance": 1,
-        "institutional_flows": 0,
-        "magnitude": 0,
-        "time_window": 2,
-        "source_quality": 3,
-        "market_confirmation": 2.5,
-        "cash_deployment": 2
-      },
-      "created_at": "2026-11-25T16:55:45.987Z",
-      "expires_at": "2026-12-02T16:55:45.987Z"
+      "created_at": "2026-11-26T01:40:06.548Z",
+      "expires_at": "2026-12-03T01:40:06.548Z"
     }
   ],
   "noise_filtered": 14,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
