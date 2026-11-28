@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:44:05.010Z",
+  "generated_at": "2026-11-28T03:08:44.327Z",
   "highest_level": 3,
   "cash_deployment": "gestaffelt",
   "existing_positions": "keine_aenderung",
@@ -36,8 +36,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "023bbc546c6829d0",
@@ -63,8 +63,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "c973d06e4510b45b",
@@ -92,8 +92,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "678066d761140a03",
@@ -121,8 +121,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "aee20f8ee5e8b68c",
@@ -151,8 +151,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "9e10a192432d0bc5",
@@ -181,8 +181,8 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
       "id": "e609aeecb3f2e7af",
@@ -211,45 +211,44 @@
         "market_confirmation": 2.5,
         "cash_deployment": 4
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     },
     {
-      "id": "eaae76ae4976b6be",
-      "level": 2,
-      "type": "watch",
-      "label": "Watch",
-      "title": "Gold price today 27 November 2026 : MCX gold rate jumps but still 31 % down from record high ; is it the right time to buy ? ",
+      "id": "1d29c2edd72ad3cc",
+      "level": 1,
+      "type": "context",
+      "label": "Kontext",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "assets": [
-        "Aktien",
-        "Gold/Silber"
+        "Zinsen"
       ],
       "time_window": "1-5 Handelstage",
-      "summary": "Relevante Meldung zu Aktien, Gold/Silber.",
+      "summary": "Relevante Meldung zu Zinsen.",
       "what_it_does_not_mean": "Kein Crash-Signal, kein Verkaufssignal, keine Ampelaenderung.",
       "investment_note": "Bestehende Positionen unveraendert. Neues Kapital ggf. gestaffelt einsetzen.",
       "sources": [
         {
-          "name": "livemint.com",
-          "url": "https://www.livemint.com/market/commodities/gold-price-today-27-november-2026-mcx-gold-rate-jumps-but-still-31-down-from-record-high-is-it-the-right-time-to-buy-11795752383038.html"
+          "name": "ecb.europa.eu",
+          "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
         }
       ],
-      "score": 13,
+      "score": 12,
       "score_detail": {
-        "asset_relevance": 2,
+        "asset_relevance": 1,
         "institutional_flows": 0,
-        "magnitude": 2,
+        "magnitude": 0,
         "time_window": 3,
-        "source_quality": 1,
+        "source_quality": 3,
         "market_confirmation": 2.5,
         "cash_deployment": 2
       },
-      "created_at": "2026-11-27T18:44:05.010Z",
-      "expires_at": "2026-12-04T18:44:05.010Z"
+      "created_at": "2026-11-28T03:08:44.327Z",
+      "expires_at": "2026-12-05T03:08:44.327Z"
     }
   ],
-  "noise_filtered": 43,
+  "noise_filtered": 13,
   "notifications": {
-    "telegram_sent": 1
+    "telegram_sent": 0
   }
 }
